@@ -1,0 +1,92 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.41">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.21">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>177</queueId>
+  <timestamp>1629191227342</timestamp>
+  <startTime>1629191227345</startTime>
+  <result>SUCCESS</result>
+  <duration>7485</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>
+node {
+      
+    for (i=0; i&lt;2; i++) { 
+           
+        stage &quot;Stage #&quot;+i
+           
+        print &apos;Hello, world !&apos;
+          
+        if (i==0)
+           
+        {
+               
+            echo &apos;Running on Stage #0&apos;
+          
+         }
+           
+        else {
+               
+            build &apos;jenkinsPipeline-demo2&apos;
+              
+             echo &apos;Running on Stage #1&apos;
+           
+        }
+      
+    }
+
+ 
+
+}
+
+
+</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>95484605</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>6423198</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>194028451</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>31457915</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>11990210</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>14</iota>
+    <head>1:14</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

@@ -1,0 +1,108 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <com.dabsquared.gitlabjenkins.cause.GitLabWebHookCause plugin="gitlab-plugin@1.5.20">
+            <data>
+              <actionType>PUSH</actionType>
+              <sourceProjectId>112</sourceProjectId>
+              <targetProjectId>112</targetProjectId>
+              <branch>master</branch>
+              <sourceBranch>master</sourceBranch>
+              <userName>Lakshmi Sulochana pokuru</userName>
+              <userUsername>lakshmi.pokuru1994</userUsername>
+              <userEmail></userEmail>
+              <sourceRepoHomepage>http://hclgitlab.vinsys.live/lakshmi-devops-group/lakshmi-junit-repo</sourceRepoHomepage>
+              <sourceRepoName>lakshmi-junit-repo</sourceRepoName>
+              <sourceNamespace>lakshmi-devops-group</sourceNamespace>
+              <sourceRepoUrl>git@hclgitlab.vinsys.live:lakshmi-devops-group/lakshmi-junit-repo.git</sourceRepoUrl>
+              <sourceRepoSshUrl>git@hclgitlab.vinsys.live:lakshmi-devops-group/lakshmi-junit-repo.git</sourceRepoSshUrl>
+              <sourceRepoHttpUrl>http://hclgitlab.vinsys.live/lakshmi-devops-group/lakshmi-junit-repo.git</sourceRepoHttpUrl>
+              <mergeRequestTitle></mergeRequestTitle>
+              <mergeRequestDescription></mergeRequestDescription>
+              <mergeRequestState></mergeRequestState>
+              <mergedByUser></mergedByUser>
+              <mergeRequestAssignee></mergeRequestAssignee>
+              <targetBranch>master</targetBranch>
+              <targetRepoName></targetRepoName>
+              <targetNamespace></targetNamespace>
+              <targetRepoSshUrl></targetRepoSshUrl>
+              <targetRepoHttpUrl></targetRepoHttpUrl>
+              <triggeredByUser>Lakshmi Sulochana pokuru</triggeredByUser>
+              <before>ad7f73d98c53c5f29e1b077b30d673147dd5b561</before>
+              <after>ad7f73d98c53c5f29e1b077b30d673147dd5b561</after>
+              <lastCommit>ad7f73d98c53c5f29e1b077b30d673147dd5b561</lastCommit>
+              <targetProjectUrl>http://hclgitlab.vinsys.live/lakshmi-devops-group/lakshmi-junit-repo</targetProjectUrl>
+            </data>
+          </com.dabsquared.gitlabjenkins.cause.GitLabWebHookCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.triggers.SCMTrigger_-BuildAction/>
+    <hudson.plugins.git.RevisionParameterAction plugin="git@4.8.1">
+      <commit>remotes/origin/master</commit>
+      <combineCommits>false</combineCommits>
+      <repoURL plugin="git-client@3.9.0">
+        <path>lakshmi-devops-group/lakshmi-junit-repo.git</path>
+        <rawPath>lakshmi-devops-group/lakshmi-junit-repo.git</rawPath>
+        <user>git</user>
+        <port>-1</port>
+        <host>hclgitlab.vinsys.live</host>
+      </repoURL>
+    </hudson.plugins.git.RevisionParameterAction>
+    <hudson.plugins.git.util.BuildData plugin="git@4.8.1">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.9.0">
+              <sha1>ad7f73d98c53c5f29e1b077b30d673147dd5b561</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>2</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>http://hclgitlab.vinsys.live/lakshmi-devops-group/lakshmi-junit-repo.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.scm.SCMRevisionState_-None/>
+    <hudson.tasks.junit.TestResultAction plugin="junit@1.51">
+      <descriptions class="concurrent-hash-map"/>
+      <failCount>0</failCount>
+      <skipCount>0</skipCount>
+      <totalCount>3</totalCount>
+      <healthScaleFactor>1.0</healthScaleFactor>
+      <testData/>
+    </hudson.tasks.junit.TestResultAction>
+  </actions>
+  <queueId>395</queueId>
+  <timestamp>1629720523681</timestamp>
+  <startTime>1629720523684</startTime>
+  <result>SUCCESS</result>
+  <description>Started by GitLab push by Lakshmi Sulochana pokuru</description>
+  <duration>3404</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/workspace/gitlab-junit-repo</workspace>
+  <hudsonVersion>2.305</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@4.8.1">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

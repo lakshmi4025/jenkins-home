@@ -1,0 +1,26 @@
+Started by user [8mha:////4FTCqNFiKLpyn30lOIdVm1IpFtll+75UhAowWr8E/lnxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlakshmi
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/job2
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/lakshmi4025/hcl-shell-scripts.git
+ > git init /var/lib/jenkins/workspace/job2 # timeout=10
+Fetching upstream changes from https://github.com/lakshmi4025/hcl-shell-scripts.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/lakshmi4025/hcl-shell-scripts.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/lakshmi4025/hcl-shell-scripts.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 5a5aedc84f887fe493a50c8f0d759c2cba6a1d90 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5a5aedc84f887fe493a50c8f0d759c2cba6a1d90 # timeout=10
+Commit message: "backup jenkins"
+First time build. Skipping changelog.
+[job2] $ /bin/sh -xe /tmp/jenkins6023129100318513288.sh
++ bash case.sh
+Next time. Have a nice day !!
+[job2] $ /bin/sh -xe /tmp/jenkins866876618464718924.sh
+Finished: SUCCESS

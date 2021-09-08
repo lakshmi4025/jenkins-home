@@ -1,0 +1,22 @@
+Started by user [8mha:////4FTCqNFiKLpyn30lOIdVm1IpFtll+75UhAowWr8E/lnxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlakshmi
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/hello-world
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/hello-world/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lakshmi4025/hcl-shell-scripts.git # timeout=10
+Fetching upstream changes from https://github.com/lakshmi4025/hcl-shell-scripts.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/lakshmi4025/hcl-shell-scripts.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision c7d706d8ea949a07b4425aa445b3d32f02938205 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c7d706d8ea949a07b4425aa445b3d32f02938205 # timeout=10
+Commit message: "changes for pollscm"
+ > git rev-list --no-walk c7d706d8ea949a07b4425aa445b3d32f02938205 # timeout=10
+[hello-world] $ /bin/sh -xe /tmp/jenkins8949296795252536297.sh
++ echo hello world
+hello world
+Finished: SUCCESS

@@ -1,0 +1,67 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.41">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@1.9.1"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@1.9.1">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.dabsquared.gitlabjenkins.connection.GitLabConnectionProperty plugin="gitlab-plugin@1.5.20">
+      <gitLabConnection></gitLabConnection>
+      <jobCredentialId></jobCredentialId>
+      <useAlternativeCredential>false</useAlternativeCredential>
+    </com.dabsquared.gitlabjenkins.connection.GitLabConnectionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.93">
+    <script>pipeline {
+    agent any
+
+    stages {
+        stage(&apos;Build&apos;) {
+            steps {
+                git &quot;https://github.com/lakshmi4025/addressbook&quot;
+                
+                sh &quot;mvn compile&quot;
+            }
+        }
+        stage(&apos;code-Review&apos;) {
+            steps {
+                
+               sh  &quot;mvn pmd:pmd&quot; 
+            
+            }
+    }
+    stage(&apos;Qa-Test&apos;) {
+            steps {
+                
+               sh  &quot;mvn test&quot; 
+            
+            }
+    }
+    stage(&apos;Qa-Metriccheck&apos;) {
+            steps {
+                
+               sh  &quot;mvn cobertura:cobertura&quot; 
+            
+            }
+    }
+    stage(&apos;Package&apos;) {
+            steps {
+                
+               sh  &quot;mvn package&quot; 
+            
+            }
+    }
+}
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

@@ -1,0 +1,19 @@
+commit 1cebdc178b5fee2f95c5cd92ad5e954ec9bada38
+tree 87a6aef79d410cabb0d140101084a272c9bbb3c4
+parent fdb5b90bd5ef20798da92af770979aa70067172a
+author Sahitya <sahityabattula678@gmail.com> 2021-08-19 11:43:42 +0000
+committer Sahitya <sahityabattula678@gmail.com> 2021-08-19 11:43:42 +0000
+
+    Update Jenkinsfile.txt
+
+:100644 100644 12e57e9b511f4c3f89c96d69791099e478f50450 62af056c713ce33244f36c2c39b5811b2b7aeeb9 M	Jenkinsfile.txt
+commit fdb5b90bd5ef20798da92af770979aa70067172a
+tree 2d9845354c664f0418a4906c66311f70b2c62447
+parent 331cd976fb11133fc825f0076a976233d003a771
+author sahitya <sahityabattula678@gmail.com> 2021-08-19 11:27:57 +0000
+committer sahitya <sahityabattula678@gmail.com> 2021-08-19 11:27:57 +0000
+
+    changed
+
+
+:100644 100644 80aabfe773a6e4eb5e0802fd6a563494f7954090 12e57e9b511f4c3f89c96d69791099e478f50450 M	Jenkinsfile.txt

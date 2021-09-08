@@ -1,0 +1,80 @@
+Started by timer
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Jenkins_update
+[Jenkins_update] $ /bin/bash /tmp/jenkins4988731823339186978.sh
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   267  100   267    0     0    715      0 --:--:-- --:--:-- --:--:--   715
+{"ip":"3.109.59.196","country":"IN","asn":{"asnum":16509,"org_name":"AMAZON-02"},"geo":{"city":"Mumbai","region":"MH","region_name":"Maharashtra","postal_code":"400070","latitude":19.0748,"longitude":72.8856,"tz":"Asia/Kolkata","lum_city":"mumbai","lum_region":"mh"}}\n#############################################################################
+cat: /tmp/log.txt: No such file or directory
+jenkins
+cat: /root/.ssh/known_hosts: Permission denied
+/tmp/jenkins4988731823339186978.sh: line 8: nvcc: command not found
+/tmp/jenkins4988731823339186978.sh: line 8: nvidia-smi: command not found
+jenkins   739347  739333  0 20:41 ?        00:00:00 grep xmrig
+#############################################################################
+2
+Architecture:                    aarch64
+CPU op-mode(s):                  32-bit, 64-bit
+Byte Order:                      Little Endian
+CPU(s):                          2
+On-line CPU(s) list:             0,1
+Thread(s) per core:              1
+Core(s) per socket:              2
+Socket(s):                       1
+NUMA node(s):                    1
+Vendor ID:                       ARM
+Model:                           1
+Model name:                      Neoverse-N1
+Stepping:                        r3p1
+BogoMIPS:                        243.75
+L1d cache:                       128 KiB
+L1i cache:                       128 KiB
+L2 cache:                        2 MiB
+L3 cache:                        32 MiB
+NUMA node0 CPU(s):               0,1
+Vulnerability Itlb multihit:     Not affected
+Vulnerability L1tf:              Not affected
+Vulnerability Mds:               Not affected
+Vulnerability Meltdown:          Not affected
+Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:        Mitigation; __user pointer sanitization
+Vulnerability Spectre v2:        Not affected
+Vulnerability Srbds:             Not affected
+Vulnerability Tsx async abort:   Not affected
+Flags:                           fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp ssbs
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+/tmp/jenkins4988731823339186978.sh: line 17: kill: (21677) - No such process
+/tmp/jenkins4988731823339186978.sh: line 17: kill: (21677) - No such process
+/tmp/jenkins4988731823339186978.sh: line 17: kill: (21983) - No such process
+/tmp/jenkins4988731823339186978.sh: line 17: kill: (73936) - No such process
+thxforjobs
+/tmp/jenkins4988731823339186978.sh: line 21: /etc/hosts: Permission denied
+/tmp/jenkins4988731823339186978.sh: line 22: /etc/resolv.conf: Permission denied
+/tmp/jenkins4988731823339186978.sh: line 22: /etc/resolv.conf: Permission denied
+/tmp/jenkins4988731823339186978.sh: line 22: /etc/resolv.conf: Permission denied
+/tmp/jenkins4988731823339186978.sh: line 23: /etc/hosts: Permission denied
+/tmp/jenkins4988731823339186978.sh: line 23: /etc/hosts: Permission denied
+/tmp/jenkins4988731823339186978.sh: line 23: /etc/hosts: Permission denied
+/tmp/jenkins4988731823339186978.sh: line 24: /etc/hosts: Permission denied
+/tmp/jenkins4988731823339186978.sh: line 24: /etc/hosts: Permission denied
+/tmp/jenkins4988731823339186978.sh: line 24: /etc/hosts: Permission denied
+/tmp/jenkins4988731823339186978.sh: line 25: /etc/hosts: Permission denied
+/tmp/jenkins4988731823339186978.sh: line 25: /etc/hosts: Permission denied
+/tmp/jenkins4988731823339186978.sh: line 25: /etc/hosts: Permission denied
+/tmp/jenkins4988731823339186978.sh: line 26: /etc/hosts: Permission denied
+/tmp/jenkins4988731823339186978.sh: line 27: /etc/hosts: Permission denied
+/tmp/jenkins4988731823339186978.sh: line 28: /etc/hosts: Permission denied
+/tmp/jenkins4988731823339186978.sh: line 29: /etc/hosts: Permission denied
+/tmp/jenkins4988731823339186978.sh: line 30: /etc/hosts: Permission denied
+/tmp/jenkins4988731823339186978.sh: line 31: /etc/hosts: Permission denied
+/tmp/jenkins4988731823339186978.sh: line 32: /etc/hosts: Permission denied
+/tmp/jenkins4988731823339186978.sh: line 33: /etc/hosts: Permission denied
+Fatal: can't open lock file /run/xtables.lock: Permission denied
+sysctl: setting key "kernel.nmi_watchdog"
+/tmp/jenkins4988731823339186978.sh: line 38: /proc/sys/kernel/nmi_watchdog: Permission denied
+/tmp/jenkins4988731823339186978.sh: line 39: /etc/sysctl.conf: Permission denied
+629d7969 - 2
+/tmp/jenkins4988731823339186978.sh: line 94: ./trace: cannot execute binary file: Exec format error
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,50 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>devops-package</upstreamProject>
+            <upstreamUrl>job/devops-package/</upstreamUrl>
+            <upstreamBuild>8</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UpstreamCause>
+                <upstreamProject>devops-test</upstreamProject>
+                <upstreamUrl>job/devops-test/</upstreamUrl>
+                <upstreamBuild>9</upstreamBuild>
+                <upstreamCauses>
+                  <hudson.model.Cause_-UpstreamCause>
+                    <upstreamProject>devops-compile</upstreamProject>
+                    <upstreamUrl>job/devops-compile/</upstreamUrl>
+                    <upstreamBuild>12</upstreamBuild>
+                    <upstreamCauses>
+                      <com.cloudbees.jenkins.GitHubPushCause plugin="github@1.33.1">
+                        <pushedBy>lakshmi4025</pushedBy>
+                      </com.cloudbees.jenkins.GitHubPushCause>
+                    </upstreamCauses>
+                  </hudson.model.Cause_-UpstreamCause>
+                </upstreamCauses>
+              </hudson.model.Cause_-UpstreamCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>148</queueId>
+  <timestamp>1629116962489</timestamp>
+  <startTime>1629116962492</startTime>
+  <result>SUCCESS</result>
+  <duration>29</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/workspace/devops-deploy</workspace>
+  <hudsonVersion>2.305</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

@@ -1,0 +1,67 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.41">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <com.dabsquared.gitlabjenkins.cause.GitLabWebHookCause plugin="gitlab-plugin@1.5.20">
+            <data>
+              <actionType>PUSH</actionType>
+              <sourceProjectId>84</sourceProjectId>
+              <targetProjectId>84</targetProjectId>
+              <branch>lakshmi.pokuru1994-main-patch-97747</branch>
+              <sourceBranch>lakshmi.pokuru1994-main-patch-97747</sourceBranch>
+              <userName>Lakshmi Sulochana pokuru</userName>
+              <userUsername>lakshmi.pokuru1994</userUsername>
+              <userEmail></userEmail>
+              <sourceRepoHomepage>http://hclgitlab.vinsys.live/lakshmi-pipeline-group/hcl-lakshmi1-project</sourceRepoHomepage>
+              <sourceRepoName>hcl-lakshmi1-project</sourceRepoName>
+              <sourceNamespace>lakshmi-pipeline-group</sourceNamespace>
+              <sourceRepoUrl>git@hclgitlab.vinsys.live:lakshmi-pipeline-group/hcl-lakshmi1-project.git</sourceRepoUrl>
+              <sourceRepoSshUrl>git@hclgitlab.vinsys.live:lakshmi-pipeline-group/hcl-lakshmi1-project.git</sourceRepoSshUrl>
+              <sourceRepoHttpUrl>http://hclgitlab.vinsys.live/lakshmi-pipeline-group/hcl-lakshmi1-project.git</sourceRepoHttpUrl>
+              <mergeRequestTitle></mergeRequestTitle>
+              <mergeRequestDescription></mergeRequestDescription>
+              <mergeRequestState></mergeRequestState>
+              <mergedByUser></mergedByUser>
+              <mergeRequestAssignee></mergeRequestAssignee>
+              <targetBranch>lakshmi.pokuru1994-main-patch-97747</targetBranch>
+              <targetRepoName></targetRepoName>
+              <targetNamespace></targetNamespace>
+              <targetRepoSshUrl></targetRepoSshUrl>
+              <targetRepoHttpUrl></targetRepoHttpUrl>
+              <triggeredByUser>Lakshmi Sulochana pokuru</triggeredByUser>
+              <before>0000000000000000000000000000000000000000</before>
+              <after>573c41f2f8f81b0911dc6fb76f77d04873f484cf</after>
+              <lastCommit>573c41f2f8f81b0911dc6fb76f77d04873f484cf</lastCommit>
+              <targetProjectUrl>http://hclgitlab.vinsys.live/lakshmi-pipeline-group/hcl-lakshmi1-project</targetProjectUrl>
+            </data>
+          </com.dabsquared.gitlabjenkins.cause.GitLabWebHookCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.triggers.SCMTrigger_-BuildAction/>
+    <hudson.plugins.git.RevisionParameterAction plugin="git@4.8.1">
+      <commit>573c41f2f8f81b0911dc6fb76f77d04873f484cf</commit>
+      <combineCommits>false</combineCommits>
+      <repoURL plugin="git-client@3.9.0">
+        <path>lakshmi-pipeline-group/hcl-lakshmi1-project.git</path>
+        <rawPath>lakshmi-pipeline-group/hcl-lakshmi1-project.git</rawPath>
+        <user>git</user>
+        <port>-1</port>
+        <host>hclgitlab.vinsys.live</host>
+      </repoURL>
+    </hudson.plugins.git.RevisionParameterAction>
+  </actions>
+  <queueId>375</queueId>
+  <timestamp>1629523113981</timestamp>
+  <startTime>1629523113983</startTime>
+  <result>FAILURE</result>
+  <description>Started by GitLab push by Lakshmi Sulochana pokuru</description>
+  <duration>527</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

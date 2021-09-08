@@ -1,0 +1,24 @@
+Started by user [8mha:////4FTCqNFiKLpyn30lOIdVm1IpFtll+75UhAowWr8E/lnxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlakshmi
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/prod-flow
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/lakshmi4025/git-workflow.git
+ > git init /var/lib/jenkins/workspace/prod-flow # timeout=10
+Fetching upstream changes from https://github.com/lakshmi4025/git-workflow.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/lakshmi4025/git-workflow.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/lakshmi4025/git-workflow.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 86eab08f6fc13a5d8f9dc1a4fc6e08efc3dc7752 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 86eab08f6fc13a5d8f9dc1a4fc6e08efc3dc7752 # timeout=10
+Commit message: "Merge branch 'hotfix/hotfix_branch'"
+First time build. Skipping changelog.
+[Checks API] No suitable checks publisher found.
+[Checks API] No suitable checks publisher found.
+Finished: SUCCESS

@@ -1,0 +1,118 @@
+Started by upstream project "[8mha:////4BD+agNqZGGi4Q+7BM0iMy+WPXPq3apHJc0dh/k9Ra+/AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP3ARN3cVKAJyckZqcnZ+gC0ICGoyQAAAA==[0mQa-metriccheck" build number [8mha:////4Gz9SW11Q1/KdBdtOZQdQeWIvUleR3wP53AeQF3ETjvpAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYx/az8JP3ARN3cVKAJyckZqcnZ+oaGAKmetv/LAAAA[0m11
+originally caused by:
+ Started by user [8mha:////4FTCqNFiKLpyn30lOIdVm1IpFtll+75UhAowWr8E/lnxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlakshmi
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/package
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/package/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lakshmi4025/addressbook.git # timeout=10
+Fetching upstream changes from https://github.com/lakshmi4025/addressbook.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/lakshmi4025/addressbook.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 2dc00f3e6d58238b2c398866c03e445bee71c5d8 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2dc00f3e6d58238b2c398866c03e445bee71c5d8 # timeout=10
+Commit message: "Update build.xml"
+ > git rev-list --no-walk 2dc00f3e6d58238b2c398866c03e445bee71c5d8 # timeout=10
+[Checks API] No suitable checks publisher found.
+[package] $ /usr/share/maven/bin/mvn package
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Vaadin Addressbook example                                         [war]
+[[1;34mINFO[m] Address Book Demo                                                  [pom]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mcom.addressbookdemo.tutorial:addressbook_main[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding Vaadin Addressbook example 2.0                            [1/2][m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.0:enforce[m [1m(enforce-versions)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/package/addressbook_main/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.2:compile[m [1m(default-compile)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.2:testCompile[m [1m(default-testCompile)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.19.1:test[m [1m(default-test)[m @ [36maddressbook_main[0;1m ---[m
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.addressbookdemo.utilities.TestLogger
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/lib/jenkins/.m2/repository/org/slf4j/slf4j-simple/1.7.7/slf4j-simple-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/var/lib/jenkins/.m2/repository/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[pool-1-thread-1] INFO com.addressbookdemo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.addressbookdemo.utilities.TestLogger.testGetErrorMessage1(TestLogger.java:14)
+Cause:at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[pool-1-thread-2] INFO com.addressbookdemo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.addressbookdemo.utilities.TestLogger.testGetErrorMessage2(TestLogger.java:30)
+Cause:at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[pool-1-thread-3] INFO com.addressbookdemo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.addressbookdemo.utilities.ExceptionThrower.getCounter(ExceptionThrower.java:13)
+Cause:at com.addressbookdemo.utilities.TestLogger.testGetErrorMessage3(TestLogger.java:45)
+[pool-1-thread-4] INFO com.addressbookdemo.utilities.TestLogger - java.io.IOException: TESTIOEXCEPTION
+Cause:at com.addressbookdemo.utilities.ExceptionThrower.doNothing(ExceptionThrower.java:18)
+Cause:at com.addressbookdemo.utilities.TestLogger.testGetErrorMessage4(TestLogger.java:60)
+[pool-1-thread-5] ERROR com.addressbookdemo.utilities.ExceptionThrower - java.lang.Exception: DEAR
+Cause:at com.addressbookdemo.utilities.ExceptionThrower.doYYY(ExceptionThrower.java:35)
+Cause:at com.addressbookdemo.utilities.ExceptionThrower.doXXX(ExceptionThrower.java:23)
+[pool-1-thread-5] INFO com.addressbookdemo.utilities.TestLogger - java.lang.Exception: TEST MESSAGE
+Cause:at com.addressbookdemo.utilities.ExceptionThrower.doCheck(ExceptionThrower.java:43)
+Cause:at com.addressbookdemo.utilities.TestLogger.testGetErrorMessage5(TestLogger.java:75)
+***** java.lang.Exception: TEST MESSAGE
+Cause:at com.addressbookdemo.utilities.ExceptionThrower.doCheck(ExceptionThrower.java:43)
+Cause:at com.addressbookdemo.utilities.TestLogger.testGetErrorMessage5(TestLogger.java:75)
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec - in com.addressbookdemo.utilities.TestLogger
+Running com.addressbookdemo.utilities.TestHexAsciiConversion
+74657374696e6720617363696920636f6e76657274696f6e20696e746f2068657861646563696d616c
+testing ascii convertion into hexadecimal
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec - in com.addressbookdemo.utilities.TestHexAsciiConversion
+Running com.addressbookdemo.utilities.TestGenericComparator
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec - in com.addressbookdemo.utilities.TestGenericComparator
+
+Results :
+
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-war-plugin:2.2:war[m [1m(default-war)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] Packaging webapp
+[[1;34mINFO[m] Assembling webapp [addressbook_main] in [/var/lib/jenkins/workspace/package/addressbook_main/target/addressbook]
+[[1;34mINFO[m] Processing war project
+[[1;34mINFO[m] Webapp assembled in [115 msecs]
+[[1;34mINFO[m] Building war: /var/lib/jenkins/workspace/package/addressbook_main/target/addressbook.war
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mcom.demo.tutorial:addressbook[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Address Book Demo 1.0-SNAPSHOT                            [2/2][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Vaadin Addressbook example 2.0 ..................... [1;32mSUCCESS[m [  3.821 s]
+[[1;34mINFO[m] Address Book Demo 1.0-SNAPSHOT ..................... [1;32mSUCCESS[m [  0.001 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  3.931 s
+[[1;34mINFO[m] Finished at: 2021-08-25T11:06:39Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Archiving artifacts
+[Checks API] No suitable checks publisher found.
+Finished: SUCCESS

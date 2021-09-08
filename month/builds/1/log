@@ -1,0 +1,24 @@
+Started by user [8mha:////4FTCqNFiKLpyn30lOIdVm1IpFtll+75UhAowWr8E/lnxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlakshmi
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/month
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/lakshmi425/hcl-shell-scripts.git
+ > git init /var/lib/jenkins/workspace/month # timeout=10
+Fetching upstream changes from https://github.com/lakshmi425/hcl-shell-scripts.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/lakshmi425/hcl-shell-scripts.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/lakshmi425/hcl-shell-scripts.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 199dbc3a8dfddfbf593cc5482b7777d59ed6e2fe (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 199dbc3a8dfddfbf593cc5482b7777d59ed6e2fe # timeout=10
+Commit message: "this is for month"
+First time build. Skipping changelog.
+[month] $ /bin/sh -xe /tmp/jenkins2239912290255160177.sh
++ bash month.sh
+Finished: SUCCESS

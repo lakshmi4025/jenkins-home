@@ -1,0 +1,81 @@
+Started by user [8mha:////4FTCqNFiKLpyn30lOIdVm1IpFtll+75UhAowWr8E/lnxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlakshmi
+Running as SYSTEM
+Building remotely on [8mha:////4OiLuvFyY4C7gX+/755G+tzvkK7uBHhKDgA6xKAk4bdbAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/fLMvJT88mIALPIANMYAAAA=[0mwindows in workspace C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\selenium-gitlab
+The recommended git tool is: NONE
+using credential 09a35bdf-a9d4-4528-82c2-f3e5679f2717
+Cloning the remote Git repository
+Cloning repository http://hclgitlab.vinsys.live/lakshmi.pokuru1994/Selenium-WebDriver-TestNG-priority.git
+ > git init C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\selenium-gitlab # timeout=10
+Fetching upstream changes from http://hclgitlab.vinsys.live/lakshmi.pokuru1994/Selenium-WebDriver-TestNG-priority.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0.windows.2'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- http://hclgitlab.vinsys.live/lakshmi.pokuru1994/Selenium-WebDriver-TestNG-priority.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url http://hclgitlab.vinsys.live/lakshmi.pokuru1994/Selenium-WebDriver-TestNG-priority.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision 1bd3eca864c44a6ec19fd2d884492263c71f9558 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1bd3eca864c44a6ec19fd2d884492263c71f9558 # timeout=10
+Commit message: "Merge branch 'master' of https://github.com/lakshmi4025/Selenium-WebDriver-TestNG-priority"
+First time build. Skipping changelog.
+[Checks API] No suitable checks publisher found.
+[selenium-gitlab] $ cmd.exe /C "mvn test && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------< seleniumTestNGPriority:seleniumTestNGPriority >------------
+[INFO] Building seleniumTestNGPriority 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ seleniumTestNGPriority ---
+[8mha:////4HOTkYkeSplnovF16d/jvFnqgIsFdsez6SJD82hTgwKFAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\selenium-gitlab\src\main\resources
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ seleniumTestNGPriority ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4HOTkYkeSplnovF16d/jvFnqgIsFdsez6SJD82hTgwKFAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\selenium-gitlab\target\classes
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ seleniumTestNGPriority ---
+[8mha:////4HOTkYkeSplnovF16d/jvFnqgIsFdsez6SJD82hTgwKFAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\selenium-gitlab\src\test\resources
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ seleniumTestNGPriority ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ seleniumTestNGPriority ---
+[INFO] No tests to run.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Hello Google...
+Priority - 1
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 53176
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Priority - 2
+Priority - 3
+Priority - 4
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 47.41 sec - in TestSuite
+
+Results :
+
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:04 min
+[INFO] Finished at: 2021-09-03T23:45:43-07:00
+[INFO] ------------------------------------------------------------------------
+TestNG Reports Processing: START
+Looking for TestNG results report in workspace using pattern: **/testng-results.xml
+Saving reports...
+Processing '/var/lib/jenkins/jobs/selenium-gitlab/builds/1/testng/testng-results.xml'
+TestNG Reports Processing: FINISH
+[Checks API] No suitable checks publisher found.
+Finished: SUCCESS

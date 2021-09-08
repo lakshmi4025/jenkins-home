@@ -1,0 +1,10 @@
+Started by upstream project "[8mha:////4O+utF3YINvQI7hwXEgb6/heIIAQO3GPNs6g/zWWpIg/AAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP2U1LL8gmLd5PzcgsycVH0Aa0WwP8kAAAA=[0mdevops-compile" build number [8mha:////4Aghh7AzecGFliWMqAL7XrHYFj/Clm6Yy5mJZOYJUUTlAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBlH9rPwk/ZTUsvyCYt3k/NyCzJxUfRMAchia3MoAAAA=[0m4
+originally caused by:
+ Started by user [8mha:////4FTCqNFiKLpyn30lOIdVm1IpFtll+75UhAowWr8E/lnxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlakshmi
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/devops-test
+[devops-test] $ /bin/sh -xe /tmp/jenkins8136510245482067682.sh
++ echo testing code
+testing code
+Triggering a new build of [8mha:////4LlleGTCiI1fGE8G9fOQHZ7fVmhJXjptR5p0M0aiWAmVAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP2U1LL8gmLdgsTk7MT0VH0AEwhgeckAAAA=[0mdevops-package
+Finished: SUCCESS

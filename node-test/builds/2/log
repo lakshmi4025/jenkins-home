@@ -1,0 +1,80 @@
+Started by user [8mha:////4FTCqNFiKLpyn30lOIdVm1IpFtll+75UhAowWr8E/lnxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlakshmi
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/node-test
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/node-test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lakshmi4025/angular-repo.git # timeout=10
+Fetching upstream changes from https://github.com/lakshmi4025/angular-repo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/lakshmi4025/angular-repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 90fccf57a22246b63edae1514c5600c407642dc1 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 90fccf57a22246b63edae1514c5600c407642dc1 # timeout=10
+Commit message: "initial commit"
+ > git rev-list --no-walk 90fccf57a22246b63edae1514c5600c407642dc1 # timeout=10
+[Checks API] No suitable checks publisher found.
+[node-test] $ /bin/sh -xe /tmp/jenkins3330386405673873301.sh
++ npm install
+npm WARN old lockfile 
+npm WARN old lockfile The package-lock.json file was created with an old version of npm,
+npm WARN old lockfile so supplemental metadata must be fetched from the registry.
+npm WARN old lockfile 
+npm WARN old lockfile This is a one-time fix-up, please be patient...
+npm WARN old lockfile 
+
+up to date, audited 1310 packages in 7s
+
+87 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[node-test] $ /bin/sh -xe /tmp/jenkins8271571984065583996.sh
++ npm start
+
+> my-app@0.0.0 start
+> ng serve
+
+- Generating browser application bundles (phase: setup)...
+Compiling @angular/core : es2015 as esm2015
+Compiling @angular/common : es2015 as esm2015
+Compiling @angular/platform-browser : es2015 as esm2015
+Compiling @angular/platform-browser-dynamic : es2015 as esm2015
+Compiling @angular/router : es2015 as esm2015
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names         |      Size
+vendor.js           | vendor        |   2.39 MB
+polyfills.js        | polyfills     | 128.49 kB
+main.js             | main          |  56.79 kB
+runtime.js          | runtime       |   6.61 kB
+styles.css          | styles        | 736 bytes
+
+| Initial Total |   2.58 MB
+
+Build at: 2021-08-30T10:12:42.840Z - Hash: 4a1ab6967cabcff93234 - Time: 15991ms
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+5 unchanged chunks
+
+Build at: 2021-08-30T10:12:44.029Z - Hash: dbd97cf1a42752f32312 - Time: 746ms
+
+✔ Compiled successfully.
+Terminated
+Build was aborted
+Aborted by [8mha:////4FTCqNFiKLpyn30lOIdVm1IpFtll+75UhAowWr8E/lnxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlakshmi
+[Checks API] No suitable checks publisher found.
+Finished: ABORTED

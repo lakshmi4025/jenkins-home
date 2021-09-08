@@ -1,0 +1,82 @@
+Started by user [8mha:////4FTCqNFiKLpyn30lOIdVm1IpFtll+75UhAowWr8E/lnxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlakshmi
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/lakshmi-maven
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/lakshmi-maven/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lakshmi4025/lakshmi-maven.git # timeout=10
+Fetching upstream changes from https://github.com/lakshmi4025/lakshmi-maven.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/lakshmi4025/lakshmi-maven.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision a00eed061d4d54341e61fb819f0cefa2b98cb9cd (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a00eed061d4d54341e61fb819f0cefa2b98cb9cd # timeout=10
+Commit message: "checkin for maven project"
+ > git rev-list --no-walk a00eed061d4d54341e61fb819f0cefa2b98cb9cd # timeout=10
+[lakshmi-maven] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/_usr_bin_mvn/bin/mvn -f pom.xml test install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.lakshmi.devops:lakshmi-maven >------------------
+[INFO] Building lakshmi-maven 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lakshmi-maven ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/lakshmi-maven/src/main/resources
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ lakshmi-maven ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ lakshmi-maven ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/lakshmi-maven/src/test/resources
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ lakshmi-maven ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ lakshmi-maven ---
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/lakshmi-maven/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.lakshmi.devops.lakshmi_maven.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lakshmi-maven ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/lakshmi-maven/src/main/resources
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ lakshmi-maven ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ lakshmi-maven ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/lakshmi-maven/src/test/resources
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ lakshmi-maven ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ lakshmi-maven ---
+[INFO] Skipping execution of surefire because it has already been run for this configuration
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ lakshmi-maven ---
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ lakshmi-maven ---
+[INFO] Installing /var/lib/jenkins/workspace/lakshmi-maven/target/lakshmi-maven-0.0.1-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/com/lakshmi/devops/lakshmi-maven/0.0.1-SNAPSHOT/lakshmi-maven-0.0.1-SNAPSHOT.jar
+[INFO] Installing /var/lib/jenkins/workspace/lakshmi-maven/pom.xml to /var/lib/jenkins/.m2/repository/com/lakshmi/devops/lakshmi-maven/0.0.1-SNAPSHOT/lakshmi-maven-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.446 s
+[INFO] Finished at: 2021-08-20T11:19:37Z
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

@@ -1,0 +1,13 @@
+Started by upstream project "[8mha:////4LlleGTCiI1fGE8G9fOQHZ7fVmhJXjptR5p0M0aiWAmVAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP2U1LL8gmLdgsTk7MT0VH0AEwhgeckAAAA=[0mdevops-package" build number [8mha:////4GQ4OabfvD9JcU+zAj71wUmBTgS2wJcY2JVCSmFTwKqnAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBlH9rPwk/ZTUsvyCYt2CxOTsxPRUfUsAjE2z/MoAAAA=[0m9
+originally caused by:
+ Started by upstream project "[8mha:////4Dfnw5SFWuec53vgteQDyp3DKdrZtUKX6XL1//ub0ZMQAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JP2U1LL8gmLdktTiEn0AlfNt7cYAAAA=[0mdevops-test" build number [8mha:////4BYHyhlEorS0ReMDQpQroz689PDq0CmDj6WLHiX3ae86AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZh/az8JP2U1LL8gmLdktTiEn1DAwALytvYyAAAAA==[0m10
+ originally caused by:
+  Started by upstream project "[8mha:////4O+utF3YINvQI7hwXEgb6/heIIAQO3GPNs6g/zWWpIg/AAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP2U1LL8gmLd5PzcgsycVH0Aa0WwP8kAAAA=[0mdevops-compile" build number [8mha:////4BXXVWhpCrqSvYyx5Nt7u7ciOvpo86hGPMvY6ynOFzSoAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYx/az8JP2U1LL8gmLd5PzcgsycVH1DYwATJMAqywAAAA==[0m13
+  originally caused by:
+   Started by GitHub push by lakshmi4025
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/devops-deploy
+[devops-deploy] $ /bin/sh -xe /tmp/jenkins5464943618309890379.sh
++ echo deploy
+deploy
+Finished: SUCCESS

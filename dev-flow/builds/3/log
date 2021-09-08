@@ -1,0 +1,30 @@
+Started by GitHub push by lakshmi4025
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/dev-flow
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/dev-flow/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lakshmi4025/git-workflow.git # timeout=10
+Fetching upstream changes from https://github.com/lakshmi4025/git-workflow.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/lakshmi4025/git-workflow.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/develop^{commit} # timeout=10
+Checking out Revision 388a5605f9bcb96e13a86b1306263a9a1303bc58 (refs/remotes/origin/develop)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 388a5605f9bcb96e13a86b1306263a9a1303bc58 # timeout=10
+Commit message: "Update gitflow.txt"
+ > git rev-list --no-walk 0cd884430ab3e3f7bb54580fac70c2be8b4410ee # timeout=10
+[Checks API] No suitable checks publisher found.
+[dev-flow] $ /bin/sh -xe /tmp/jenkins2281698493379900504.sh
++ bash gitflow.txt
+This is work flow in git
+I am used feature Branch
+I am used release branch
+I am used hotfix branch
+It is feature branch
+I am used hotfix branch..
+It is released branch
+[Checks API] No suitable checks publisher found.
+Finished: SUCCESS

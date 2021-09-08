@@ -1,0 +1,10 @@
+commit 7e6947f6f133c3fff9e148c311a37a4c6dc9c227
+tree 36f867fdd36d822fa21e21b93a3e89ec863c73a5
+parent 22cb9da9a3a88c4ee8937f47badb7384f644ecc5
+author lakshmi <lakshmi.pokuru1994@gmail.com> 2021-08-13 07:39:57 +0000
+committer lakshmi <lakshmi.pokuru1994@gmail.com> 2021-08-13 07:39:57 +0000
+
+    modified format with spaces
+
+
+:100644 100644 06dbde918073ca024a9a59fcaf6dc2b512f40d02 dc04c9b0d344903f3554a986e7a456a3f0715fe3 M	reg-ex/awk/format

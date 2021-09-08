@@ -1,0 +1,51 @@
+Started by user [8mha:////4FTCqNFiKLpyn30lOIdVm1IpFtll+75UhAowWr8E/lnxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlakshmi
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/node-test
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/node-test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lakshmi4025/angular-repo.git # timeout=10
+Fetching upstream changes from https://github.com/lakshmi4025/angular-repo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/lakshmi4025/angular-repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 90fccf57a22246b63edae1514c5600c407642dc1 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 90fccf57a22246b63edae1514c5600c407642dc1 # timeout=10
+Commit message: "initial commit"
+ > git rev-list --no-walk 90fccf57a22246b63edae1514c5600c407642dc1 # timeout=10
+[Checks API] No suitable checks publisher found.
+[node-test] $ /bin/sh -xe /tmp/jenkins2670804543986114753.sh
++ npm install
+npm WARN old lockfile 
+npm WARN old lockfile The package-lock.json file was created with an old version of npm,
+npm WARN old lockfile so supplemental metadata must be fetched from the registry.
+npm WARN old lockfile 
+npm WARN old lockfile This is a one-time fix-up, please be patient...
+npm WARN old lockfile 
+
+removed 1 package, and audited 1310 packages in 26s
+
+87 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[node-test] $ /bin/sh -xe /tmp/jenkins135844295621184692.sh
++ npm build
+Unknown command: "build"
+
+Did you mean this?
+    npm run build # run the "build" package script
+
+To see a list of supported npm commands, run:
+  npm help
+Build step 'Execute shell' marked build as failure
+[Checks API] No suitable checks publisher found.
+Finished: FAILURE

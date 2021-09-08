@@ -1,0 +1,67 @@
+commit 4fe32b9e128d4cb4390d4e0b9858aa689c54b535
+tree f31ba79d9ecf3a1b64bce6c0be14f5cd3724fc79
+parent 63264cd3c25e17af9cd8da5b042d50aa8aea2693
+author Swathi Nirangani R <rsnc95@gmail.com> 2021-08-20 06:10:43 +0000
+committer Swathi Nirangani R <rsnc95@gmail.com> 2021-08-20 06:10:43 +0000
+
+    Update Jenkinsfile4.txt
+
+:100644 100644 9ddd5fe90b9ba4c8eae35f2a3e4f250e548cb423 8ee7b59c815b120143907b1bff2a6063121523cf M	Jenkinsfile4.txt
+commit 63264cd3c25e17af9cd8da5b042d50aa8aea2693
+tree 97b38f61d18d5a17c926c9cf77a57d472d468d4b
+parent e0f27ae529157594592ca681f62b838a91473b6e
+author Swathi Nirangani R <rsnc95@gmail.com> 2021-08-20 06:06:24 +0000
+committer Swathi Nirangani R <rsnc95@gmail.com> 2021-08-20 06:06:24 +0000
+
+    Update Jenkinsfile6.txt
+
+:100644 100644 9d96f1a2ac8e55d75c4c59b40a930ce8a3644905 2f3da08e8ecabd386201e6bf0e6dcbc7ca80bc3f M	Jenkinsfile6.txt
+commit b173cc71a562939da9ee681e09da96e8794c0a9d
+tree 71fd4339f84116939374ae274625c4f0ac33382b
+parent 91f4c4a01e45e5a3ee26a853b0946df56229ed56
+author Swathi Nirangani R <rsnc95@gmail.com> 2021-08-20 06:04:45 +0000
+committer Swathi Nirangani R <rsnc95@gmail.com> 2021-08-20 06:04:45 +0000
+
+    Update Jenkinsfile4.txt
+
+:100644 100644 9fe79c5eccea6cac09b4d8351833eaaaa616ed13 8ee7b59c815b120143907b1bff2a6063121523cf M	Jenkinsfile4.txt
+commit 91f4c4a01e45e5a3ee26a853b0946df56229ed56
+tree 3bfb0605414f7d0684540f28bbf01221c2d9afe7
+parent 6892b27050434b5f9030a82074f73b7260b161bf
+author Swathi Nirangani R <rsnc95@gmail.com> 2021-08-20 06:02:47 +0000
+committer Swathi Nirangani R <rsnc95@gmail.com> 2021-08-20 06:02:47 +0000
+
+    Modifying Jenkinsfile6
+
+
+:100644 100644 72ebc4ce37fc8bf3aaf06a94e804ea724a520b1c 9d96f1a2ac8e55d75c4c59b40a930ce8a3644905 M	Jenkinsfile6.txt
+commit 3e1e14560bc5297718a5e67851da6febe64d48c0
+tree 45715d174092e93f1b8b71e00bcc29e72c8ad739
+parent d0f08bac613228664cdea43c055d4ea941233aa1
+author Swathi Nirangani R <rsnc95@gmail.com> 2021-08-19 12:26:11 +0000
+committer Swathi Nirangani R <rsnc95@gmail.com> 2021-08-19 12:26:11 +0000
+
+    Modifying Jenkinsfile4
+
+
+:000000 160000 0000000000000000000000000000000000000000 f291a1e8a354fe19347617abf5172fb6eadd6221 A	jenkinspipeline-devops-project
+commit d0f08bac613228664cdea43c055d4ea941233aa1
+tree 9924a0dfe3170a9a661f30719bf129587b9382c5
+parent 0ac87b3955b47ff500cff72ba3f0876f1f9adbe7
+author Swathi Nirangani R <rsnc95@gmail.com> 2021-08-19 11:09:50 +0000
+committer Swathi Nirangani R <rsnc95@gmail.com> 2021-08-19 11:09:50 +0000
+
+    Modifying Jenkinsfile4
+
+
+:100644 100644 4f2f40ac3fe1ef1977a3a14e7c0685e1beb1a766 02681efdd3d901f2a70fd9ed3077748d7a6b52b9 M	Jenkinsfile4.txt
+commit 0ac87b3955b47ff500cff72ba3f0876f1f9adbe7
+tree d7d32e5f8fca097e804d73777357c2664fd4abe1
+parent 331cd976fb11133fc825f0076a976233d003a771
+author Swathi Nirangani R <rsnc95@gmail.com> 2021-08-19 11:06:04 +0000
+committer Swathi Nirangani R <rsnc95@gmail.com> 2021-08-19 11:06:04 +0000
+
+    Modifying Jenkinsfile4
+
+
+:100644 100644 e2050c23cffbabc7e6407222879d141720e29945 4f2f40ac3fe1ef1977a3a14e7c0685e1beb1a766 M	Jenkinsfile4.txt

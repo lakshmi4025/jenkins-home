@@ -1,0 +1,68 @@
+Started by user [8mha:////4FTCqNFiKLpyn30lOIdVm1IpFtll+75UhAowWr8E/lnxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlakshmi
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/lakshmi-maven-project
+The recommended git tool is: NONE
+using credential 09a35bdf-a9d4-4528-82c2-f3e5679f2717
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/lakshmi-maven-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url http://hclgitlab.vinsys.live/lakshmi.pokuru1994/lakshmi-maven-assignment.git # timeout=10
+Fetching upstream changes from http://hclgitlab.vinsys.live/lakshmi.pokuru1994/lakshmi-maven-assignment.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- http://hclgitlab.vinsys.live/lakshmi.pokuru1994/lakshmi-maven-assignment.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 674278c01a4f029a3c6a5e97ee42f0d870e17ed7 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 674278c01a4f029a3c6a5e97ee42f0d870e17ed7 # timeout=10
+Commit message: "checkin for maven"
+ > git rev-list --no-walk 674278c01a4f029a3c6a5e97ee42f0d870e17ed7 # timeout=10
+[Checks API] No suitable checks publisher found.
+Unpacking https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.8.2/apache-maven-3.8.2-bin.zip to /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/_usr_share_maven on Jenkins
+[lakshmi-maven-project] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/_usr_share_maven/bin/mvn -f pom.xml install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------< com.lakshmi.assignment:lakshmi-maven-assignment >-----------
+[INFO] Building lakshmi-maven-assignment 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ lakshmi-maven-assignment ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/lakshmi-maven-project/src/main/resources
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ lakshmi-maven-assignment ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ lakshmi-maven-assignment ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/lakshmi-maven-project/src/test/resources
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ lakshmi-maven-assignment ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ lakshmi-maven-assignment ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.lakshmi.assignment.lakshmi_maven_assignment.AppTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in com.lakshmi.assignment.lakshmi_maven_assignment.AppTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ lakshmi-maven-assignment ---
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ lakshmi-maven-assignment ---
+[INFO] Installing /var/lib/jenkins/workspace/lakshmi-maven-project/target/lakshmi-maven-assignment-0.0.1-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/com/lakshmi/assignment/lakshmi-maven-assignment/0.0.1-SNAPSHOT/lakshmi-maven-assignment-0.0.1-SNAPSHOT.jar
+[INFO] Installing /var/lib/jenkins/workspace/lakshmi-maven-project/pom.xml to /var/lib/jenkins/.m2/repository/com/lakshmi/assignment/lakshmi-maven-assignment/0.0.1-SNAPSHOT/lakshmi-maven-assignment-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.146 s
+[INFO] Finished at: 2021-08-23T07:22:25Z
+[INFO] ------------------------------------------------------------------------
+[Checks API] No suitable checks publisher found.
+Finished: SUCCESS

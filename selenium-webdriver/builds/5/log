@@ -1,0 +1,81 @@
+Started by user [8mha:////4FTCqNFiKLpyn30lOIdVm1IpFtll+75UhAowWr8E/lnxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlakshmi
+Running as SYSTEM
+Building remotely on [8mha:////4OiLuvFyY4C7gX+/755G+tzvkK7uBHhKDgA6xKAk4bdbAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/fLMvJT88mIALPIANMYAAAA=[0mwindows in workspace C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\selenium-webdriver
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\selenium-webdriver\.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lakshmi4025/Selenium-WebDriver-TestNG-priority.git # timeout=10
+Fetching upstream changes from https://github.com/lakshmi4025/Selenium-WebDriver-TestNG-priority.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0.windows.2'
+ > git fetch --tags --force --progress -- https://github.com/lakshmi4025/Selenium-WebDriver-TestNG-priority.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision 8f8ff934a4030128e8f72b20ff20225d2a9c5cb3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8f8ff934a4030128e8f72b20ff20225d2a9c5cb3 # timeout=10
+Commit message: "Update Priority_In_testNG.java"
+ > git rev-list --no-walk 8f8ff934a4030128e8f72b20ff20225d2a9c5cb3 # timeout=10
+[Checks API] No suitable checks publisher found.
+[selenium-webdriver] $ cmd.exe /C "mvn -f pom.xml install && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------< seleniumTestNGPriority:seleniumTestNGPriority >------------
+[INFO] Building seleniumTestNGPriority 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ seleniumTestNGPriority ---
+[8mha:////4HOTkYkeSplnovF16d/jvFnqgIsFdsez6SJD82hTgwKFAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\selenium-webdriver\src\main\resources
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ seleniumTestNGPriority ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ seleniumTestNGPriority ---
+[8mha:////4HOTkYkeSplnovF16d/jvFnqgIsFdsez6SJD82hTgwKFAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\selenium-webdriver\src\test\resources
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ seleniumTestNGPriority ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ seleniumTestNGPriority ---
+[INFO] No tests to run.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Hello Google...
+Priority - 1
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 51396
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Priority - 2
+Priority - 3
+Priority - 4
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 37.848 sec - in TestSuite
+
+Results :
+
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ seleniumTestNGPriority ---
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ seleniumTestNGPriority ---
+[INFO] Installing C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\selenium-webdriver\target\seleniumTestNGPriority-0.0.1-SNAPSHOT.jar to C:\Users\Surendranath\.m2\repository\seleniumTestNGPriority\seleniumTestNGPriority\0.0.1-SNAPSHOT\seleniumTestNGPriority-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\selenium-webdriver\pom.xml to C:\Users\Surendranath\.m2\repository\seleniumTestNGPriority\seleniumTestNGPriority\0.0.1-SNAPSHOT\seleniumTestNGPriority-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  51.236 s
+[INFO] Finished at: 2021-09-03T21:55:32-07:00
+[INFO] ------------------------------------------------------------------------
+TestNG Reports Processing: START
+Looking for TestNG results report in workspace using pattern: **/testng-results.xml
+Saving reports...
+Processing '/var/lib/jenkins/jobs/selenium-webdriver/builds/5/testng/testng-results.xml'
+TestNG Reports Processing: FINISH
+[Checks API] No suitable checks publisher found.
+Finished: SUCCESS

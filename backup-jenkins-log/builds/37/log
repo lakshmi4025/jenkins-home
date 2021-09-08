@@ -1,0 +1,30 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/backup-jenkins-log
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/backup-jenkins-log/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lakshmi4025/jenkins-log.git # timeout=10
+Fetching upstream changes from https://github.com/lakshmi4025/jenkins-log.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/lakshmi4025/jenkins-log.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision b83415012b271a4482c514deb8cb9f021473ddc1 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b83415012b271a4482c514deb8cb9f021473ddc1 # timeout=10
+Commit message: "checkin for log"
+ > git rev-list --no-walk b83415012b271a4482c514deb8cb9f021473ddc1 # timeout=10
+[backup-jenkins-log] $ /bin/sh -xe /tmp/jenkins203346681525304840.sh
++ bash backup-script.sh
+tar: Removing leading `/' from member names
+tar (child): /var/log/backup/jenkins-home-01-15-13-14-08-2021.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+/var/log/jenkins/
+/var/log/jenkins/jenkins.log
+tar: /var/log/backup/jenkins-home-01-15-13-14-08-2021.tar.gz: Cannot write: Broken pipe
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

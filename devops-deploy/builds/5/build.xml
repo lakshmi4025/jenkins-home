@@ -1,0 +1,70 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>devops-package</upstreamProject>
+            <upstreamUrl>job/devops-package/</upstreamUrl>
+            <upstreamBuild>5</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UpstreamCause>
+                <upstreamProject>devops-test</upstreamProject>
+                <upstreamUrl>job/devops-test/</upstreamUrl>
+                <upstreamBuild>5</upstreamBuild>
+                <upstreamCauses>
+                  <hudson.model.Cause_-UpstreamCause>
+                    <upstreamProject>devops-compile</upstreamProject>
+                    <upstreamUrl>job/devops-compile/</upstreamUrl>
+                    <upstreamBuild>6</upstreamBuild>
+                    <upstreamCauses>
+                      <hudson.model.Cause_-UserIdCause>
+                        <userId>admin</userId>
+                      </hudson.model.Cause_-UserIdCause>
+                    </upstreamCauses>
+                  </hudson.model.Cause_-UpstreamCause>
+                  <hudson.model.Cause_-UpstreamCause>
+                    <upstreamProject>devops-compile</upstreamProject>
+                    <upstreamUrl>job/devops-compile/</upstreamUrl>
+                    <upstreamBuild>7</upstreamBuild>
+                    <upstreamCauses>
+                      <hudson.model.Cause_-UserIdCause>
+                        <userId>admin</userId>
+                      </hudson.model.Cause_-UserIdCause>
+                    </upstreamCauses>
+                  </hudson.model.Cause_-UpstreamCause>
+                  <hudson.model.Cause_-UpstreamCause>
+                    <upstreamProject>devops-compile</upstreamProject>
+                    <upstreamUrl>job/devops-compile/</upstreamUrl>
+                    <upstreamBuild>8</upstreamBuild>
+                    <upstreamCauses>
+                      <hudson.model.Cause_-UserIdCause>
+                        <userId>admin</userId>
+                      </hudson.model.Cause_-UserIdCause>
+                    </upstreamCauses>
+                  </hudson.model.Cause_-UpstreamCause>
+                </upstreamCauses>
+              </hudson.model.Cause_-UpstreamCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>137</queueId>
+  <timestamp>1629115922442</timestamp>
+  <startTime>1629115922445</startTime>
+  <result>SUCCESS</result>
+  <duration>24</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/workspace/devops-deploy</workspace>
+  <hudsonVersion>2.305</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

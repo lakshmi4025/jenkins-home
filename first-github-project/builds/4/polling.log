@@ -1,0 +1,12 @@
+Started on Aug 16, 2021 8:52:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision 62aee38f5e1dceb73e76611022d4a525d3c7e211 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git ls-remote -h -- https://github.com/lakshmi425/hcl-shell-scripts.git # timeout=10
+Found 1 remote heads on https://github.com/lakshmi425/hcl-shell-scripts.git
+[poll] Latest remote head revision on refs/heads/master is: 9ddb82f30061a094db21038d0fc11ee0174def53
+Done. Took 0.33 sec
+Changes found

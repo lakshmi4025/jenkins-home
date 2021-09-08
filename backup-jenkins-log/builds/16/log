@@ -1,0 +1,23 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/backup-jenkins-log
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/backup-jenkins-log/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lakshmi4025/jenkins-backup.git # timeout=10
+Fetching upstream changes from https://github.com/lakshmi4025/jenkins-backup.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/lakshmi4025/jenkins-backup.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 574061c4202a1b18a4cb364c8bd3cf0d80b94614 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 574061c4202a1b18a4cb364c8bd3cf0d80b94614 # timeout=10
+Commit message: "checkin for backup"
+ > git rev-list --no-walk 574061c4202a1b18a4cb364c8bd3cf0d80b94614 # timeout=10
+[backup-jenkins-log] $ /bin/sh -xe /tmp/jenkins2148174833243821679.sh
++ cd backupscript-repo
+/tmp/jenkins2148174833243821679.sh: 2: cd: can't cd to backupscript-repo
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

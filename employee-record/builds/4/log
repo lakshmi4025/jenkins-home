@@ -1,0 +1,28 @@
+Started by user [8mha:////4FTCqNFiKLpyn30lOIdVm1IpFtll+75UhAowWr8E/lnxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlakshmi
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/employee-record
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/employee-record/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lakshmi4025/hcl-shell-scripts.git # timeout=10
+Fetching upstream changes from https://github.com/lakshmi4025/hcl-shell-scripts.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/lakshmi4025/hcl-shell-scripts.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 7e6947f6f133c3fff9e148c311a37a4c6dc9c227 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7e6947f6f133c3fff9e148c311a37a4c6dc9c227 # timeout=10
+Commit message: "modified format with spaces"
+ > git rev-list --no-walk 22cb9da9a3a88c4ee8937f47badb7384f644ecc5 # timeout=10
+[employee-record] $ /bin/sh -xe /tmp/jenkins7810860098304118806.sh
++ cd reg-ex/awk
++ awk -f format employee.txt
+name                Designation         Department          salary              
+lakshmi             manager             IT                  350000              
+venkat              Teamlead            IT                  80000               
+suren               software            IT                  75000               
+chinna              trainee             IT                  85000               
+mokshit             trainee             IT                  95000               
+Finished: SUCCESS

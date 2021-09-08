@@ -1,0 +1,38 @@
+Started by user [8mha:////4FTCqNFiKLpyn30lOIdVm1IpFtll+75UhAowWr8E/lnxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlakshmi
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/employee-record
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/lakshmi4025/hcl-shell-scripts.git
+ > git init /var/lib/jenkins/workspace/employee-record # timeout=10
+Fetching upstream changes from https://github.com/lakshmi4025/hcl-shell-scripts.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/lakshmi4025/hcl-shell-scripts.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/lakshmi4025/hcl-shell-scripts.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 2196681495866279d4bdebed11b55be4aa2149da (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2196681495866279d4bdebed11b55be4aa2149da # timeout=10
+Commit message: "emplyee details"
+First time build. Skipping changelog.
+[employee-record] $ /bin/sh -xe /tmp/jenkins7880828609177648262.sh
++ cd reg-ex/awk
++ awk -f format employee.txt
+------------------------------------------
+             employee details
+------------------------------------------
+Name 	 Designation 	 Department 	 Salary
+-------------------------------------------
+lakshmi  	  manager  	  IT  	  350000
+venkat  	  Teamlead  	  IT  	  80000
+suri  	  software  	  IT  	  75000
+chinna  	  trainee  	  IT  	  85000
+mokshit  	  sr.trainee  	  IT  	  95000
+-----------------------------------------
+             The End
+----------------------------------------
+Finished: SUCCESS

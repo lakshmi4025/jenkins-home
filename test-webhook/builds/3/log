@@ -1,0 +1,25 @@
+Started by GitHub push by lakshmi4025
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/test-webhook
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/test-webhook/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lakshmi4025/hcl-webhook-test.git # timeout=10
+Fetching upstream changes from https://github.com/lakshmi4025/hcl-webhook-test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/lakshmi4025/hcl-webhook-test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision f26642da82e81c67e8d148872fc9de2610b1ceaf (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f26642da82e81c67e8d148872fc9de2610b1ceaf # timeout=10
+Commit message: "Update testfile"
+ > git rev-list --no-walk cda8921dbf4ebf337982b6962df04367ffce7bbe # timeout=10
+[test-webhook] $ /bin/sh -xe /tmp/jenkins3801412361269346699.sh
++ cat testfile
+initial checkin
+second checkin
+final checkin
+[test-webhook] $ /bin/sh -xe /tmp/jenkins5726913765093515386.sh
+Finished: SUCCESS

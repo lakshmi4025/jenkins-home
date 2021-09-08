@@ -1,0 +1,25 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/hello-world
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/lakshmi4025/hcl-shell-scripts.git
+ > git init /var/lib/jenkins/workspace/hello-world # timeout=10
+Fetching upstream changes from https://github.com/lakshmi4025/hcl-shell-scripts.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/lakshmi4025/hcl-shell-scripts.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/lakshmi4025/hcl-shell-scripts.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision c7d706d8ea949a07b4425aa445b3d32f02938205 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c7d706d8ea949a07b4425aa445b3d32f02938205 # timeout=10
+Commit message: "changes for pollscm"
+First time build. Skipping changelog.
+[hello-world] $ /bin/sh -xe /tmp/jenkins3122762285985021952.sh
+/tmp/jenkins3122762285985021952.sh: 2: Syntax error: Unterminated quoted string
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

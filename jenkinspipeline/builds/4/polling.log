@@ -1,0 +1,14 @@
+Started on Aug 17, 2021 7:16:56 AM
+Started by event from 140.82.115.150 ⇒ http://3.109.59.196:8080/github-webhook/ on Tue Aug 17 07:16:56 UTC 2021
+Using strategy: Default
+[poll] Last Built Revision: Revision 05168f1ef9abc54f225be113c2e86e4896cde2f2 (refs/remotes/origin/master)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git ls-remote -h -- https://github.com/lakshmi4025/jenkinspipeline-repo.git # timeout=10
+Found 1 remote heads on https://github.com/lakshmi4025/jenkinspipeline-repo.git
+[poll] Latest remote head revision on refs/heads/master is: dca914416a719c8a57c0deaa070d01ec9e516eef
+Done. Took 0.29 sec
+Changes found

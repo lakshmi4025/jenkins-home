@@ -1,0 +1,22 @@
+Started on Aug 25, 2021 12:23:21 PM
+Started by event from 140.82.115.242 ⇒ http://3.109.59.196:8080/github-webhook/ on Wed Aug 25 12:23:20 UTC 2021
+Using strategy: Default
+[poll] Last Built Revision: Revision ea63195301bec127c732bef7b962f40d96887070 (refs/remotes/origin/master)
+The recommended git tool is: git
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git ls-remote -h -- https://github.com/lakshmi4025/selenium-Jenkinspipeline.git # timeout=10
+Found 1 remote heads on https://github.com/lakshmi4025/selenium-Jenkinspipeline.git
+[poll] Latest remote head revision on refs/heads/master is: 67d090014a0e349820eb16c21b0c6d98be228150
+Using strategy: Default
+[poll] Last Built Revision: Revision 8be5b4db12b8607f22f8aa0309c34cd8f07b8a8e (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git ls-remote -h -- https://github.com/puneetbhatia77/selenium-Jenkinspipeline # timeout=10
+Found 1 remote heads on https://github.com/puneetbhatia77/selenium-Jenkinspipeline
+[poll] Latest remote head revision on refs/heads/master is: 8be5b4db12b8607f22f8aa0309c34cd8f07b8a8e - already built by 12
+Done. Took 0.99 sec
+Changes found

@@ -1,0 +1,729 @@
+Started by user [8mha:////4FTCqNFiKLpyn30lOIdVm1IpFtll+75UhAowWr8E/lnxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlakshmi
+Obtained jenkinsfile from git https://github.com/lakshmi4025/addressbook.git
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4BUD3Zo655DlF2dIZUQYTEm/VSlL6RBmkO1du8zNnJmyAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4K8sJS6dAg90BEAAXqbJZNRmtuDn5Ldt0Gh5fsWi6NVyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4IzO3YzR99lTFjh1gN5K8k7BvmEtgkOz0mTmkClKqdubAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/selenium-test
+[8mha:////4BvIZ7vLFRlZowA5XH0LBU2n4ARtPF8C1dQH8fbuGrCzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4Ht9jGZIRDZpDIqaN7ZrJjAnlfhlSBRomY16aK12PhhMAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4FoBTmTvVHiNR6B1pLmmQmti/XcmEYEVRTzla/Un3DDhAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4AFalV1a4xLUSeSERBm+ss5sqwGYGWWc1XsucKMwuSo1AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/selenium-test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lakshmi4025/addressbook.git # timeout=10
+Fetching upstream changes from https://github.com/lakshmi4025/addressbook.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/lakshmi4025/addressbook.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision d88e54261181fb61a9c007fb3d4d555bb4f77263 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d88e54261181fb61a9c007fb3d4d555bb4f77263 # timeout=10
+Commit message: "checkin for addressbook"
+First time build. Skipping changelog.
+[Checks API] No suitable checks publisher found.
+[8mha:////4D+3ulcbtA02XBgfTM2OL7sVGkYDE4g0BbpmIIC33O8YAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4B8wL30d7bil50O/I+1UssofhDpIniz/TG0rNPB4NvoBAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4NgraUuaXCDCmCQfw4NlKdEgMqfIMYSdbjylWHzw75V8AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4LVN7p6Y55hiAPak50O9uHmPsJ4DHG/dT+7WRcLKpWlWAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4A3gdvM8d78g7wd/NSf+5oOWqt2XNv+p58QKwLvK0mVuAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4D21pMdJp8csCJi7+UMpVfP9ksLjGDPTg99e7+ZiZwu9AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (compile)
+[8mha:////4EtrDsMkTNjMmQdp0lEG04AbLBulrVHvAJTrK+TCu/0sAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] git
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/selenium-test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lakshmi4025/addressbook # timeout=10
+Fetching upstream changes from https://github.com/lakshmi4025/addressbook
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/lakshmi4025/addressbook +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision d88e54261181fb61a9c007fb3d4d555bb4f77263 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d88e54261181fb61a9c007fb3d4d555bb4f77263 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master d88e54261181fb61a9c007fb3d4d555bb4f77263 # timeout=10
+Commit message: "checkin for addressbook"
+[Checks API] No suitable checks publisher found.
+[8mha:////4Egp71Lrk8gIAhl8aqUOCqWcdRS9zDcXQ974WANdTuEKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] sh
++ mvn compile
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Vaadin Addressbook example                                         [war]
+[[1;34mINFO[m] Address Book Demo                                                  [pom]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mcom.addressbookdemo.tutorial:addressbook_main[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding Vaadin Addressbook example 2.0                            [1/2][m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.0:enforce[m [1m(enforce-versions)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/selenium-test/addressbook_main/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.2:compile[m [1m(default-compile)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 13 source files to /var/lib/jenkins/workspace/selenium-test/addressbook_main/target/classes
+[[1;34mINFO[m] /var/lib/jenkins/workspace/selenium-test/addressbook_main/src/main/java/com/addressbookdemo/tutorial/addressbook/ContactForm.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/selenium-test/addressbook_main/src/main/java/com/addressbookdemo/tutorial/addressbook/ContactForm.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/selenium-test/addressbook_main/src/main/java/com/addressbookdemo/tutorial/addressbook/backend/ContactService.java: /var/lib/jenkins/workspace/selenium-test/addressbook_main/src/main/java/com/addressbookdemo/tutorial/addressbook/backend/ContactService.java uses unchecked or unsafe operations.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/selenium-test/addressbook_main/src/main/java/com/addressbookdemo/tutorial/addressbook/backend/ContactService.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mcom.demo.tutorial:addressbook[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Address Book Demo 1.0-SNAPSHOT                            [2/2][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Vaadin Addressbook example 2.0 ..................... [1;32mSUCCESS[m [  2.094 s]
+[[1;34mINFO[m] Address Book Demo 1.0-SNAPSHOT ..................... [1;32mSUCCESS[m [  0.001 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  2.233 s
+[[1;34mINFO[m] Finished at: 2021-08-25T15:16:56Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4OJtS0c7D3qKCHEeiAVawgos4HxLzpOJ6ayJxHpW3bpOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEeFbpZvgAAAA==[0m[Pipeline] }
+[8mha:////4N9yRtET0N06EbMB89emZsXwxvdJvWtlHgpeNFRo8xLMAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Ny324eW+AAAA[0m[Pipeline] // stage
+[8mha:////4IdWBw7ynjljgGMLeJvIr3OFM7WnaCT6jTDydkNOEwXdAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohU3ZAQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AAkvMTrCAAAA[0m[Pipeline] stage
+[8mha:////4NJGVUksc54G8A4JRGzXcRkPUZ1OQfGKYIY/3MPzjUG6AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] { (code-Review)
+[8mha:////4INOvAcVj4aV0M1WdxzYzfO2SPECXFEPM3oqYR//WQiLAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] sh
++ mvn pmd:pmd
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Vaadin Addressbook example                                         [war]
+[[1;34mINFO[m] Address Book Demo                                                  [pom]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mcom.addressbookdemo.tutorial:addressbook_main[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding Vaadin Addressbook example 2.0                            [1/2][m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-pmd-plugin:3.14.0:pmd[m [1m(default-cli)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mcom.demo.tutorial:addressbook[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Address Book Demo 1.0-SNAPSHOT                            [2/2][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-pmd-plugin:3.14.0:pmd[m [1m(default-cli)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Vaadin Addressbook example 2.0 ..................... [1;32mSUCCESS[m [  3.500 s]
+[[1;34mINFO[m] Address Book Demo 1.0-SNAPSHOT ..................... [1;32mSUCCESS[m [  0.538 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  4.590 s
+[[1;34mINFO[m] Finished at: 2021-08-25T15:17:03Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4JyBi2DslPTm/8x92ERBZadP+zeYnG8/xd67OtFJpQ2eAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPiXWgpW+AAAA[0m[Pipeline] }
+[8mha:////4BtpWjCLXS/+p5zuKmOWLyQk4Ke+27+zShenK192v/79AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRqZAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AEdlBFkvgAAAA==[0m[Pipeline] // stage
+[8mha:////4DDnzVSWuPYGeFgC+C97GG7Qeu8B7uIVuzzlMQnXeZNgAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUhRExdY26cILQhJA0+r8kKenEibgadyBQiQkPlm3Jes8XVMHDkbxmVuFgMPSGjW7SObFEfrg4SszSmfWEgZxinUodSdUutaOoYFFRworDWmHvKBjUETbciruonUBdn6LP24FDaeQNHlDwTI7Cx2+ZPWyvkwyEP85fAMxjhLJpsu32n2f1BlfFHmHCAAAA[0m[Pipeline] stage
+[8mha:////4KtkDEEc4tdOcTid7MZHoalZcTWsFumVOwuscMslc2QUAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] { (Qa-Test)
+[8mha:////4NGpbjZFPPWnmB33BEa2VQNg47UUfxsWxPhs4L4B8mRBAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN38C26S+AAAA[0m[Pipeline] sh
++ mvn test
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Vaadin Addressbook example                                         [war]
+[[1;34mINFO[m] Address Book Demo                                                  [pom]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mcom.addressbookdemo.tutorial:addressbook_main[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding Vaadin Addressbook example 2.0                            [1/2][m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.0:enforce[m [1m(enforce-versions)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/selenium-test/addressbook_main/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.2:compile[m [1m(default-compile)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.2:testCompile[m [1m(default-testCompile)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 6 source files to /var/lib/jenkins/workspace/selenium-test/addressbook_main/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.19.1:test[m [1m(default-test)[m @ [36maddressbook_main[0;1m ---[m
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.addressbookdemo.utilities.TestLogger
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/lib/jenkins/.m2/repository/org/slf4j/slf4j-simple/1.7.7/slf4j-simple-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/var/lib/jenkins/.m2/repository/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[pool-1-thread-1] INFO com.addressbookdemo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.addressbookdemo.utilities.TestLogger.testGetErrorMessage1(TestLogger.java:14)
+Cause:at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[pool-1-thread-2] INFO com.addressbookdemo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.addressbookdemo.utilities.TestLogger.testGetErrorMessage2(TestLogger.java:30)
+Cause:at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[pool-1-thread-4] INFO com.addressbookdemo.utilities.TestLogger - java.io.IOException: TESTIOEXCEPTION
+Cause:at com.addressbookdemo.utilities.ExceptionThrower.doNothing(ExceptionThrower.java:18)
+Cause:at com.addressbookdemo.utilities.TestLogger.testGetErrorMessage4(TestLogger.java:60)
+[pool-1-thread-3] INFO com.addressbookdemo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.addressbookdemo.utilities.ExceptionThrower.getCounter(ExceptionThrower.java:13)
+Cause:at com.addressbookdemo.utilities.TestLogger.testGetErrorMessage3(TestLogger.java:45)
+[pool-1-thread-5] ERROR com.addressbookdemo.utilities.ExceptionThrower - java.lang.Exception: DEAR
+Cause:at com.addressbookdemo.utilities.ExceptionThrower.doYYY(ExceptionThrower.java:35)
+Cause:at com.addressbookdemo.utilities.ExceptionThrower.doXXX(ExceptionThrower.java:23)
+[pool-1-thread-5] INFO com.addressbookdemo.utilities.TestLogger - java.lang.Exception: TEST MESSAGE
+Cause:at com.addressbookdemo.utilities.ExceptionThrower.doCheck(ExceptionThrower.java:43)
+Cause:at com.addressbookdemo.utilities.TestLogger.testGetErrorMessage5(TestLogger.java:75)
+***** java.lang.Exception: TEST MESSAGE
+Cause:at com.addressbookdemo.utilities.ExceptionThrower.doCheck(ExceptionThrower.java:43)
+Cause:at com.addressbookdemo.utilities.TestLogger.testGetErrorMessage5(TestLogger.java:75)
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec - in com.addressbookdemo.utilities.TestLogger
+Running com.addressbookdemo.utilities.TestHexAsciiConversion
+74657374696e6720617363696920636f6e76657274696f6e20696e746f2068657861646563696d616c
+testing ascii convertion into hexadecimal
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec - in com.addressbookdemo.utilities.TestHexAsciiConversion
+Running com.addressbookdemo.utilities.TestGenericComparator
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec - in com.addressbookdemo.utilities.TestGenericComparator
+
+Results :
+
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mcom.demo.tutorial:addressbook[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Address Book Demo 1.0-SNAPSHOT                            [2/2][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Vaadin Addressbook example 2.0 ..................... [1;32mSUCCESS[m [  2.857 s]
+[[1;34mINFO[m] Address Book Demo 1.0-SNAPSHOT ..................... [1;32mSUCCESS[m [  0.001 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  2.983 s
+[[1;34mINFO[m] Finished at: 2021-08-25T15:17:07Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4L2hZ6PkoOvGbDqLuRgM+ZAGCEGIVwWl04NZBgRJ1JkLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHjyRvdvgAAAA==[0m[Pipeline] }
+[8mha:////4JJscDOR5CkiXXVd6Kn1Kp0v0/cWoJt7esH1j9+NkIjiAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQUGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHljyOIvgAAAA==[0m[Pipeline] // stage
+[8mha:////4BV9AgLtFemZe4Dl1Rb5lopGoC1Ngjn1yoHyErdXllO/AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUJCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFsmmy7/edZvQGUNdkLwgAAAA==[0m[Pipeline] stage
+[8mha:////4EYdliTPIYcgVQks6cAy0uFIOeQI4KMEZOepUVFVly1jAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] { (Qa-Metriccheck)
+[8mha:////4AsYXzDaEwW+fx1JHe2BHBizgzMXcW9pC24UxrtMXSZwAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHN/bm5vgAAAA==[0m[Pipeline] sh
++ mvn cobertura:cobertura
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Vaadin Addressbook example                                         [war]
+[[1;34mINFO[m] Address Book Demo                                                  [pom]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mcom.addressbookdemo.tutorial:addressbook_main[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding Vaadin Addressbook example 2.0                            [1/2][m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mcobertura-maven-plugin:2.7:cobertura[m [1m(default-cli)[0;1m > [0;1m[cobertura]test[m @ [36maddressbook_main[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.0:enforce[m [1m(enforce-versions)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/selenium-test/addressbook_main/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.2:compile[m [1m(default-compile)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcobertura-maven-plugin:2.7:instrument[m [1m(default-cli)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] Cobertura 2.1.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+[INFO] Cobertura: Saved information on 17 classes.
+[INFO] Cobertura: Saved information on 17 classes.
+
+[[1;31mERROR[m] SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/lib/jenkins/.m2/repository/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/var/lib/jenkins/.m2/repository/org/slf4j/slf4j-simple/1.7.7/slf4j-simple-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/var/lib/jenkins/.m2/repository/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+
+[[1;34mINFO[m] Instrumentation was successful.
+[[1;34mINFO[m] NOT adding cobertura ser file to attached artifacts list.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.2:testCompile[m [1m(default-testCompile)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.19.1:test[m [1m(default-test)[m @ [36maddressbook_main[0;1m ---[m
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.addressbookdemo.utilities.TestLogger
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/lib/jenkins/.m2/repository/org/slf4j/slf4j-simple/1.7.7/slf4j-simple-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/var/lib/jenkins/.m2/repository/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/var/lib/jenkins/.m2/repository/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[pool-1-thread-1] INFO com.addressbookdemo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.addressbookdemo.utilities.TestLogger.testGetErrorMessage1(TestLogger.java:14)
+Cause:at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[pool-1-thread-2] INFO com.addressbookdemo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.addressbookdemo.utilities.TestLogger.testGetErrorMessage2(TestLogger.java:30)
+Cause:at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[pool-1-thread-3] INFO com.addressbookdemo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.addressbookdemo.utilities.ExceptionThrower.getCounter(ExceptionThrower.java:13)
+Cause:at com.addressbookdemo.utilities.TestLogger.testGetErrorMessage3(TestLogger.java:45)
+[pool-1-thread-4] INFO com.addressbookdemo.utilities.TestLogger - java.io.IOException: TESTIOEXCEPTION
+Cause:at com.addressbookdemo.utilities.ExceptionThrower.doNothing(ExceptionThrower.java:18)
+Cause:at com.addressbookdemo.utilities.TestLogger.testGetErrorMessage4(TestLogger.java:60)
+[pool-1-thread-5] ERROR com.addressbookdemo.utilities.ExceptionThrower - java.lang.Exception: DEAR
+Cause:at com.addressbookdemo.utilities.ExceptionThrower.doYYY(ExceptionThrower.java:35)
+Cause:at com.addressbookdemo.utilities.ExceptionThrower.doXXX(ExceptionThrower.java:23)
+[pool-1-thread-5] INFO com.addressbookdemo.utilities.TestLogger - java.lang.Exception: TEST MESSAGE
+Cause:at com.addressbookdemo.utilities.ExceptionThrower.doCheck(ExceptionThrower.java:43)
+Cause:at com.addressbookdemo.utilities.TestLogger.testGetErrorMessage5(TestLogger.java:75)
+***** java.lang.Exception: TEST MESSAGE
+Cause:at com.addressbookdemo.utilities.ExceptionThrower.doCheck(ExceptionThrower.java:43)
+Cause:at com.addressbookdemo.utilities.TestLogger.testGetErrorMessage5(TestLogger.java:75)
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec - in com.addressbookdemo.utilities.TestLogger
+Running com.addressbookdemo.utilities.TestHexAsciiConversion
+74657374696e6720617363696920636f6e76657274696f6e20696e746f2068657861646563696d616c
+testing ascii convertion into hexadecimal
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec - in com.addressbookdemo.utilities.TestHexAsciiConversion
+Running com.addressbookdemo.utilities.TestGenericComparator
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec - in com.addressbookdemo.utilities.TestGenericComparator
+
+Results :
+
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mcobertura-maven-plugin:2.7:cobertura[m [1m(default-cli)[0;1m < [0;1m[cobertura]test[m @ [36maddressbook_main[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcobertura-maven-plugin:2.7:cobertura[m [1m(default-cli)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] Cobertura 2.1.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+[INFO] Cobertura: Loaded information on 17 classes.
+[WARN] JavaNCSS got an error while parsing the java file /var/lib/jenkins/workspace/selenium-test/addressbook_main/src/main/java/com/addressbookdemo/tutorial/addressbook/AddressbookUI.java
+ParseException in STDIN
+Last useful checkpoint: "com.addressbookdemo.tutorial.addressbook.AddressbookUI.configureComponents()"
+Encountered " ">" "> "" at line 72, column 40.
+Was expecting one of:
+    "assert" ...
+    "boolean" ...
+    "byte" ...
+    "char" ...
+    "double" ...
+    "enum" ...
+    "false" ...
+    "float" ...
+    "int" ...
+    "long" ...
+    "new" ...
+    "null" ...
+    "short" ...
+    "super" ...
+    "this" ...
+    "true" ...
+    "void" ...
+    <INTEGER_LITERAL> ...
+    <FLOATING_POINT_LITERAL> ...
+    <CHARACTER_LITERAL> ...
+    <STRING_LITERAL> ...
+    <IDENTIFIER> ...
+    "(" ...
+    "!" ...
+    "~" ...
+    "++" ...
+    "--" ...
+    "+" ...
+    "-" ...
+    
+
+[WARN] JavaNCSS got an error while parsing the java file /var/lib/jenkins/workspace/selenium-test/addressbook_main/src/main/java/com/addressbookdemo/tutorial/addressbook/ContactForm.java
+ParseException in STDIN
+Last useful checkpoint: "com.addressbookdemo.tutorial.addressbook.ContactForm"
+Encountered " ":" ": "" at line 26, column 42.
+Was expecting one of:
+    "assert" ...
+    "instanceof" ...
+    "new" ...
+    <IDENTIFIER> ...
+    ")" ...
+    "," ...
+    "." ...
+    "=" ...
+    ">" ...
+    "<" ...
+    "?" ...
+    "==" ...
+    "<=" ...
+    ">=" ...
+    "!=" ...
+    "||" ...
+    "&&" ...
+    "++" ...
+    "--" ...
+    "+" ...
+    "-" ...
+    "*" ...
+    "/" ...
+    "&" ...
+    "|" ...
+    "^" ...
+    "%" ...
+    "+=" ...
+    "-=" ...
+    "*=" ...
+    "/=" ...
+    "&=" ...
+    "|=" ...
+    "^=" ...
+    "%=" ...
+    "<<=" ...
+    ">>=" ...
+    ">>>=" ...
+    ">" ...
+    "." ...
+    "." ...
+    "." ...
+    "." ...
+    
+
+Report time: 231ms
+
+[[1;31mERROR[m] net.sourceforge.cobertura.javancss.parser.ParseException: Encountered " ">" "> "" at line 72, column 40.
+Was expecting one of:
+    "assert" ...
+    "boolean" ...
+    "byte" ...
+    "char" ...
+    "double" ...
+    "enum" ...
+    "false" ...
+    "float" ...
+    "int" ...
+    "long" ...
+    "new" ...
+    "null" ...
+    "short" ...
+    "super" ...
+    "this" ...
+    "true" ...
+    "void" ...
+    <INTEGER_LITERAL> ...
+    <FLOATING_POINT_LITERAL> ...
+    <CHARACTER_LITERAL> ...
+    <STRING_LITERAL> ...
+    <IDENTIFIER> ...
+    "(" ...
+    "!" ...
+    "~" ...
+    "++" ...
+    "--" ...
+    "+" ...
+    "-" ...
+    
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.generateParseException(JavaParser.java:10490)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.jj_consume_token(JavaParser.java:10366)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnaryExpression(JavaParser.java:3175)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.MultiplicativeExpression(JavaParser.java:3090)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AdditiveExpression(JavaParser.java:3085)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ShiftExpression(JavaParser.java:3027)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.RelationalExpression(JavaParser.java:2990)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InstanceOfExpression(JavaParser.java:2977)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AssigmentExpression(JavaParser.java:2959)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.EqualityExpression(JavaParser.java:2886)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AndExpression(JavaParser.java:2860)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ExclusiveOrExpression(JavaParser.java:2843)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InclusiveOrExpression(JavaParser.java:2826)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalAndExpression(JavaParser.java:2808)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalOrExpression(JavaParser.java:2790)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalExpression(JavaParser.java:2774)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Expression(JavaParser.java:2718)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ArgumentList(JavaParser.java:3620)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Arguments(JavaParser.java:3610)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.PrimarySuffix(JavaParser.java:3511)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.PrimaryExpression(JavaParser.java:3384)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.StatementExpression(JavaParser.java:4070)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Statement(JavaParser.java:3795)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.BlockStatement(JavaParser.java:3984)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Block(JavaParser.java:3934)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.MethodDeclaration(JavaParser.java:1987)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassBodyDeclaration(JavaParser.java:1039)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassBody(JavaParser.java:898)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnmodifiedClassDeclaration(JavaParser.java:824)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassDeclaration(JavaParser.java:728)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.TypeDeclaration(JavaParser.java:575)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.CompilationUnit(JavaParser.java:318)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.parse(JavaParser.java:100)
+	at net.sourceforge.cobertura.javancss.Javancss._measureSource(Javancss.java:192)
+	at net.sourceforge.cobertura.javancss.Javancss._measureRoot(Javancss.java:268)
+	at net.sourceforge.cobertura.javancss.Javancss.<init>(Javancss.java:347)
+	at net.sourceforge.cobertura.javancss.JavancssFactory.newInstance(JavancssFactory.java:40)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getFunctionMetricsForSingleFile(ComplexityCalculator.java:243)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getAccumlatedCCNForSingleFile(ComplexityCalculator.java:143)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForSourceFileNameInternal(ComplexityCalculator.java:273)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForPackageInternal(ComplexityCalculator.java:208)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForProject(ComplexityCalculator.java:174)
+	at net.sourceforge.cobertura.reporting.html.HTMLReport.generateTableRowForTotal(HTMLReport.java:606)
+	at net.sourceforge.cobertura.reporting.html.HTMLReport.generateOverview(HTMLReport.java:290)
+	at net.sourceforge.cobertura.reporting.html.HTMLReport.generateOverviews(HTMLReport.java:231)
+	at net.sourceforge.cobertura.reporting.html.HTMLReport.<init>(HTMLReport.java:74)
+	at net.sourceforge.cobertura.reporting.html.HTMLReportFormatStrategy.save(HTMLReportFormatStrategy.java:18)
+	at net.sourceforge.cobertura.reporting.NativeReport.export(NativeReport.java:31)
+	at net.sourceforge.cobertura.reporting.CompositeReport.export(CompositeReport.java:19)
+	at net.sourceforge.cobertura.reporting.ReportMain.parseArgumentsAndReport(ReportMain.java:91)
+	at net.sourceforge.cobertura.reporting.ReportMain.generateReport(ReportMain.java:141)
+	at net.sourceforge.cobertura.reporting.ReportMain.main(ReportMain.java:151)
+net.sourceforge.cobertura.javancss.parser.ParseException: Encountered " ":" ": "" at line 26, column 42.
+Was expecting one of:
+    "assert" ...
+    "instanceof" ...
+    "new" ...
+    <IDENTIFIER> ...
+    ")" ...
+    "," ...
+    "." ...
+    "=" ...
+    ">" ...
+    "<" ...
+    "?" ...
+    "==" ...
+    "<=" ...
+    ">=" ...
+    "!=" ...
+    "||" ...
+    "&&" ...
+    "++" ...
+    "--" ...
+    "+" ...
+    "-" ...
+    "*" ...
+    "/" ...
+    "&" ...
+    "|" ...
+    "^" ...
+    "%" ...
+    "+=" ...
+    "-=" ...
+    "*=" ...
+    "/=" ...
+    "&=" ...
+    "|=" ...
+    "^=" ...
+    "%=" ...
+    "<<=" ...
+    ">>=" ...
+    ">>>=" ...
+    ">" ...
+    "." ...
+    "." ...
+    "." ...
+    "." ...
+    
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.generateParseException(JavaParser.java:10490)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.jj_consume_token(JavaParser.java:10366)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Arguments(JavaParser.java:3616)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AllocationExpression(JavaParser.java:3665)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.PrimaryPrefix(JavaParser.java:3456)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.PrimaryExpression(JavaParser.java:3376)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.PostfixExpression(JavaParser.java:3330)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnaryExpressionNotPlusMinus(JavaParser.java:3237)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnaryExpression(JavaParser.java:3171)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.MultiplicativeExpression(JavaParser.java:3090)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AdditiveExpression(JavaParser.java:3061)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ShiftExpression(JavaParser.java:3027)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.RelationalExpression(JavaParser.java:2990)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InstanceOfExpression(JavaParser.java:2977)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AssigmentExpression(JavaParser.java:2959)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.EqualityExpression(JavaParser.java:2886)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.AndExpression(JavaParser.java:2860)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ExclusiveOrExpression(JavaParser.java:2843)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.InclusiveOrExpression(JavaParser.java:2826)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalAndExpression(JavaParser.java:2808)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalOrExpression(JavaParser.java:2790)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ConditionalExpression(JavaParser.java:2774)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.Expression(JavaParser.java:2718)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.VariableInitializer(JavaParser.java:1744)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.VariableDeclarator(JavaParser.java:1672)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.FieldDeclaration(JavaParser.java:1649)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassBodyDeclaration(JavaParser.java:1071)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassBody(JavaParser.java:898)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.UnmodifiedClassDeclaration(JavaParser.java:824)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.ClassDeclaration(JavaParser.java:728)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.TypeDeclaration(JavaParser.java:575)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.CompilationUnit(JavaParser.java:318)
+	at net.sourceforge.cobertura.javancss.parser.JavaParser.parse(JavaParser.java:100)
+	at net.sourceforge.cobertura.javancss.Javancss._measureSource(Javancss.java:192)
+	at net.sourceforge.cobertura.javancss.Javancss._measureRoot(Javancss.java:268)
+	at net.sourceforge.cobertura.javancss.Javancss.<init>(Javancss.java:347)
+	at net.sourceforge.cobertura.javancss.JavancssFactory.newInstance(JavancssFactory.java:40)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getFunctionMetricsForSingleFile(ComplexityCalculator.java:243)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getAccumlatedCCNForSingleFile(ComplexityCalculator.java:143)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForSourceFileNameInternal(ComplexityCalculator.java:273)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForPackageInternal(ComplexityCalculator.java:208)
+	at net.sourceforge.cobertura.reporting.ComplexityCalculator.getCCNForProject(ComplexityCalculator.java:174)
+	at net.sourceforge.cobertura.reporting.html.HTMLReport.generateTableRowForTotal(HTMLReport.java:606)
+	at net.sourceforge.cobertura.reporting.html.HTMLReport.generateOverview(HTMLReport.java:290)
+	at net.sourceforge.cobertura.reporting.html.HTMLReport.generateOverviews(HTMLReport.java:231)
+	at net.sourceforge.cobertura.reporting.html.HTMLReport.<init>(HTMLReport.java:74)
+	at net.sourceforge.cobertura.reporting.html.HTMLReportFormatStrategy.save(HTMLReportFormatStrategy.java:18)
+	at net.sourceforge.cobertura.reporting.NativeReport.export(NativeReport.java:31)
+	at net.sourceforge.cobertura.reporting.CompositeReport.export(CompositeReport.java:19)
+	at net.sourceforge.cobertura.reporting.ReportMain.parseArgumentsAndReport(ReportMain.java:91)
+	at net.sourceforge.cobertura.reporting.ReportMain.generateReport(ReportMain.java:141)
+	at net.sourceforge.cobertura.reporting.ReportMain.main(ReportMain.java:151)
+
+[[1;34mINFO[m] Cobertura Report generation was successful.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mcom.demo.tutorial:addressbook[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Address Book Demo 1.0-SNAPSHOT                            [2/2][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mcobertura-maven-plugin:2.7:cobertura[m [1m(default-cli)[0;1m > [0;1m[cobertura]test[m @ [36maddressbook[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcobertura-maven-plugin:2.7:instrument[m [1m(default-cli)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] Skipping cobertura mojo for project with packaging type 'pom'
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mcobertura-maven-plugin:2.7:cobertura[m [1m(default-cli)[0;1m < [0;1m[cobertura]test[m @ [36maddressbook[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcobertura-maven-plugin:2.7:cobertura[m [1m(default-cli)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Vaadin Addressbook example 2.0 ..................... [1;32mSUCCESS[m [  5.209 s]
+[[1;34mINFO[m] Address Book Demo 1.0-SNAPSHOT ..................... [1;32mSUCCESS[m [  0.239 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.899 s
+[[1;34mINFO[m] Finished at: 2021-08-25T15:17:15Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4EztRSdtiWRk6OGf4tnvobIoEKgetjCTFKhxgsLvXXgGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AFSjtgYvgAAAA==[0m[Pipeline] }
+[8mha:////4I6a0y0DdZUaUOzzNeRF8lrd53H3haLWyBLzlgaCROFuAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw9qzEvpvgAAAA==[0m[Pipeline] // stage
+[8mha:////4CoSRgahanD4tN69YRm1YlSov6iHunNt3sGAzmaLKMrgAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUVUfExBp14QQhDSFp9H+bpLQTJ+Jq3IFAJSY8WLYl6z1fUMYARwqGO429xagsH/xkcuIzhf7qaeaOLlwRRvKat3puqdOntbaUNKwqGGwEbDUqT9GiSbATTt5l5SWa6pxC3g4CmO1GeEAhMjnJkL5lCbC/TV0k/HH+AmAZErC6ztY0n2f5BuPOacfCAAAA[0m[Pipeline] stage
+[8mha:////4GVwF40kqRhQcK97H6RtZMTx4JsMnUPHgqZnCGV/F+IGAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KBtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPBdk7bsIAAAA=[0m[Pipeline] { (Package)
+[8mha:////4LwKaShroaHKhF0OOu8lXHAwl+b1ui9jGaAC1+4VDgFvAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBtZos2m+AAAA[0m[Pipeline] sh
++ mvn package
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Vaadin Addressbook example                                         [war]
+[[1;34mINFO[m] Address Book Demo                                                  [pom]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mcom.addressbookdemo.tutorial:addressbook_main[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding Vaadin Addressbook example 2.0                            [1/2][m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.0:enforce[m [1m(enforce-versions)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/selenium-test/addressbook_main/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.2:compile[m [1m(default-compile)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.2:testCompile[m [1m(default-testCompile)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.19.1:test[m [1m(default-test)[m @ [36maddressbook_main[0;1m ---[m
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.addressbookdemo.utilities.TestLogger
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/lib/jenkins/.m2/repository/org/slf4j/slf4j-simple/1.7.7/slf4j-simple-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/var/lib/jenkins/.m2/repository/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[pool-1-thread-1] INFO com.addressbookdemo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.addressbookdemo.utilities.TestLogger.testGetErrorMessage1(TestLogger.java:14)
+Cause:at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[pool-1-thread-2] INFO com.addressbookdemo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.addressbookdemo.utilities.TestLogger.testGetErrorMessage2(TestLogger.java:30)
+Cause:at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[pool-1-thread-3] INFO com.addressbookdemo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.addressbookdemo.utilities.ExceptionThrower.getCounter(ExceptionThrower.java:13)
+Cause:at com.addressbookdemo.utilities.TestLogger.testGetErrorMessage3(TestLogger.java:45)
+[pool-1-thread-4] INFO com.addressbookdemo.utilities.TestLogger - java.io.IOException: TESTIOEXCEPTION
+Cause:at com.addressbookdemo.utilities.ExceptionThrower.doNothing(ExceptionThrower.java:18)
+Cause:at com.addressbookdemo.utilities.TestLogger.testGetErrorMessage4(TestLogger.java:60)
+[pool-1-thread-5] ERROR com.addressbookdemo.utilities.ExceptionThrower - java.lang.Exception: DEAR
+Cause:at com.addressbookdemo.utilities.ExceptionThrower.doYYY(ExceptionThrower.java:35)
+Cause:at com.addressbookdemo.utilities.ExceptionThrower.doXXX(ExceptionThrower.java:23)
+[pool-1-thread-5] INFO com.addressbookdemo.utilities.TestLogger - java.lang.Exception: TEST MESSAGE
+Cause:at com.addressbookdemo.utilities.ExceptionThrower.doCheck(ExceptionThrower.java:43)
+Cause:at com.addressbookdemo.utilities.TestLogger.testGetErrorMessage5(TestLogger.java:75)
+***** java.lang.Exception: TEST MESSAGE
+Cause:at com.addressbookdemo.utilities.ExceptionThrower.doCheck(ExceptionThrower.java:43)
+Cause:at com.addressbookdemo.utilities.TestLogger.testGetErrorMessage5(TestLogger.java:75)
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec - in com.addressbookdemo.utilities.TestLogger
+Running com.addressbookdemo.utilities.TestHexAsciiConversion
+74657374696e6720617363696920636f6e76657274696f6e20696e746f2068657861646563696d616c
+testing ascii convertion into hexadecimal
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in com.addressbookdemo.utilities.TestHexAsciiConversion
+Running com.addressbookdemo.utilities.TestGenericComparator
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec - in com.addressbookdemo.utilities.TestGenericComparator
+
+Results :
+
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-war-plugin:2.2:war[m [1m(default-war)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] Packaging webapp
+[[1;34mINFO[m] Assembling webapp [addressbook_main] in [/var/lib/jenkins/workspace/selenium-test/addressbook_main/target/addressbook]
+[[1;34mINFO[m] Processing war project
+[[1;34mINFO[m] Webapp assembled in [91 msecs]
+[[1;34mINFO[m] Building war: /var/lib/jenkins/workspace/selenium-test/addressbook_main/target/addressbook.war
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mcom.demo.tutorial:addressbook[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Address Book Demo 1.0-SNAPSHOT                            [2/2][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Vaadin Addressbook example 2.0 ..................... [1;32mSUCCESS[m [  3.956 s]
+[[1;34mINFO[m] Address Book Demo 1.0-SNAPSHOT ..................... [1;32mSUCCESS[m [  0.002 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  4.071 s
+[[1;34mINFO[m] Finished at: 2021-08-25T15:17:20Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4D8tXvxw8FCK3q4mUloroWsU6S7wcMZ+tPB3T5SW17OFAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Nxbzd2K+AAAA[0m[Pipeline] }
+[8mha:////4DG4fU1t1JNMZwQewTweXxuNxv/SEHdY0m+SiiJyWYUNAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSpLBwrGwZGk+ACSKE+Z8AkVSeyKt5B9HMWLnFzr5t3vMF6xjgSEEzq3AwGDvDvJt0WSxTGK6OMrN0YR1hJKeYUFlQr04LCkoKllQ1rDhsFHaOokGdYMutvMvGSdTNOYXyHTjUph/hARUv5iRD+sIcYHeb+kj48/wVwOx9grrdf6p9AxC1Tze+AAAA[0m[Pipeline] // stage
+[8mha:////4JmpdKkhhNaGMVH7ayoQN1vCkzLfryggsiw6enVupi3LAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiiAYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5P+Sq6w9rBCEavgAAAA==[0m[Pipeline] }
+[8mha:////4Jz58jMILekEYlx700AV3olHYX0sCEtxiN+I147MCJfEAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Iddu+wFY53qmvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4CCEp/N5E3tD5ZUg7Av9ERy5gC0QTr8cCNzi6hgX9JoyAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJY0DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg82uoiCvQAAAA==[0m[Pipeline] }
+[8mha:////4Mhphy6AErxgpWPhCfe3ksBgUgdpgGdinAPX+5hKdPTLAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRgg5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77eCbPcBJQaMIb0AAAA=[0m[Pipeline] // node
+[8mha:////4LH+VT25YSSbDRBPLNodPqbhHA5lljrZpwGEKRYLT4f5AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkxM04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwAY0wrEb0AAAA=[0m[Pipeline] End of Pipeline
+[Checks API] No suitable checks publisher found.
+Finished: SUCCESS

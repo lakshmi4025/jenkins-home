@@ -1,0 +1,54 @@
+Started by upstream project "[8mha:////4CIHwK7UOF1Lsed6YtJFC4iKMNWcdrght56hC0RnSecPAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZx/az8JP2U1LLUnHygtbrJ+bkFmTmp+gBib5YWzAAAAA==[0mdeveloper-compile" build number [8mha:////4EKzHf/GQF0gAAaE8vXi/XfTJXFrRwJ2uNmwVdOi0T8xAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgn9rPwk/ZTUstScfKC1usn5uQWZOan6FgDHf66gzQAAAA==[0m8
+originally caused by:
+ Started by user [8mha:////4FTCqNFiKLpyn30lOIdVm1IpFtll+75UhAowWr8E/lnxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlakshmi
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/code-review
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/code-review/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lakshmi4025/addressbook.git # timeout=10
+Fetching upstream changes from https://github.com/lakshmi4025/addressbook.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/lakshmi4025/addressbook.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 2dc00f3e6d58238b2c398866c03e445bee71c5d8 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2dc00f3e6d58238b2c398866c03e445bee71c5d8 # timeout=10
+Commit message: "Update build.xml"
+ > git rev-list --no-walk 2dc00f3e6d58238b2c398866c03e445bee71c5d8 # timeout=10
+[Checks API] No suitable checks publisher found.
+[code-review] $ /usr/share/maven/bin/mvn pmd:pmd
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Vaadin Addressbook example                                         [war]
+[[1;34mINFO[m] Address Book Demo                                                  [pom]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mcom.addressbookdemo.tutorial:addressbook_main[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding Vaadin Addressbook example 2.0                            [1/2][m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-pmd-plugin:3.14.0:pmd[m [1m(default-cli)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mcom.demo.tutorial:addressbook[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Address Book Demo 1.0-SNAPSHOT                            [2/2][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-pmd-plugin:3.14.0:pmd[m [1m(default-cli)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Vaadin Addressbook example 2.0 ..................... [1;32mSUCCESS[m [  3.269 s]
+[[1;34mINFO[m] Address Book Demo 1.0-SNAPSHOT ..................... [1;32mSUCCESS[m [  0.340 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  4.144 s
+[[1;34mINFO[m] Finished at: 2021-08-25T09:07:08Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[Checks API] No suitable checks publisher found.
+Triggering a new build of [8mha:////4JtHa7YYH2VYf7au6syrjjK1ub2NvU13VVUaU6VGYs6eAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JP3ARN3SvMySktTiEn0A9c06KMYAAAA=[0mQa-unittest
+Finished: SUCCESS

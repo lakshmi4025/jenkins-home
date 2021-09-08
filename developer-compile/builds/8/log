@@ -1,0 +1,57 @@
+Started by user [8mha:////4FTCqNFiKLpyn30lOIdVm1IpFtll+75UhAowWr8E/lnxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlakshmi
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/developer-compile
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/developer-compile/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lakshmi4025/addressbook.git # timeout=10
+Fetching upstream changes from https://github.com/lakshmi4025/addressbook.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/lakshmi4025/addressbook.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 2dc00f3e6d58238b2c398866c03e445bee71c5d8 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2dc00f3e6d58238b2c398866c03e445bee71c5d8 # timeout=10
+Commit message: "Update build.xml"
+ > git rev-list --no-walk 2dc00f3e6d58238b2c398866c03e445bee71c5d8 # timeout=10
+[Checks API] No suitable checks publisher found.
+[developer-compile] $ /usr/share/maven/bin/mvn compile
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Vaadin Addressbook example                                         [war]
+[[1;34mINFO[m] Address Book Demo                                                  [pom]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mcom.addressbookdemo.tutorial:addressbook_main[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding Vaadin Addressbook example 2.0                            [1/2][m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.0:enforce[m [1m(enforce-versions)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/developer-compile/addressbook_main/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.2:compile[m [1m(default-compile)[m @ [36maddressbook_main[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mcom.demo.tutorial:addressbook[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Address Book Demo 1.0-SNAPSHOT                            [2/2][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Vaadin Addressbook example 2.0 ..................... [1;32mSUCCESS[m [  1.641 s]
+[[1;34mINFO[m] Address Book Demo 1.0-SNAPSHOT ..................... [1;32mSUCCESS[m [  0.005 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.825 s
+[[1;34mINFO[m] Finished at: 2021-08-25T09:06:54Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[Checks API] No suitable checks publisher found.
+Triggering a new build of [8mha:////4AT7UB8+qZBJXUgjvP/ndTghIdzG0/C8kJpNBl1d2CnMAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JP1koBN1i1LLMlPL9QGunOBFxgAAAA==[0mcode-review
+Finished: SUCCESS

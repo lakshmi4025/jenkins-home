@@ -1,0 +1,29 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>4573</queueId>
+  <timestamp>1630660309361</timestamp>
+  <startTime>1630660309364</startTime>
+  <result>FAILURE</result>
+  <duration>8830</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn>windows</builtOn>
+  <workspace>C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\supplier-finance</workspace>
+  <hudsonVersion>2.305</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

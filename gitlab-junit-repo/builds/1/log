@@ -1,0 +1,82 @@
+Started by user [8mha:////4FTCqNFiKLpyn30lOIdVm1IpFtll+75UhAowWr8E/lnxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlakshmi
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/gitlab-junit-repo
+The recommended git tool is: NONE
+using credential 09a35bdf-a9d4-4528-82c2-f3e5679f2717
+Cloning the remote Git repository
+Cloning repository http://hclgitlab.vinsys.live/lakshmi-devops-group/lakshmi-junit-repo.git
+ > git init /var/lib/jenkins/workspace/gitlab-junit-repo # timeout=10
+Fetching upstream changes from http://hclgitlab.vinsys.live/lakshmi-devops-group/lakshmi-junit-repo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- http://hclgitlab.vinsys.live/lakshmi-devops-group/lakshmi-junit-repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url http://hclgitlab.vinsys.live/lakshmi-devops-group/lakshmi-junit-repo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision ad7f73d98c53c5f29e1b077b30d673147dd5b561 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ad7f73d98c53c5f29e1b077b30d673147dd5b561 # timeout=10
+Commit message: "checkin for junit"
+First time build. Skipping changelog.
+[Checks API] No suitable checks publisher found.
+[gitlab-junit-repo] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/_usr_share_maven/bin/mvn -f maven_first_example/my-app clean install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.mycompany.app:my-app >----------------------
+[INFO] Building my-app release
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+Progress (1): 2.7/3.9 kBProgress (1): 3.9 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom (3.9 kB at 4.0 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+Progress (1): 2.7/25 kBProgress (1): 5.5/25 kBProgress (1): 8.2/25 kBProgress (1): 11/25 kB Progress (1): 14/25 kBProgress (1): 16/25 kBProgress (1): 19/25 kBProgress (1): 22/25 kBProgress (1): 25 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar (25 kB at 86 kB/s)
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ my-app ---
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ my-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/gitlab-junit-repo/maven_first_example/my-app/src/main/resources
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ my-app ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/gitlab-junit-repo/maven_first_example/my-app/target/classes
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ my-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/gitlab-junit-repo/maven_first_example/my-app/src/test/resources
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ my-app ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/gitlab-junit-repo/maven_first_example/my-app/target/test-classes
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ my-app ---
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/gitlab-junit-repo/maven_first_example/my-app/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.mycompany.app.AppTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ my-app ---
+[INFO] Building jar: /var/lib/jenkins/workspace/gitlab-junit-repo/maven_first_example/my-app/target/my-app-release.jar
+[INFO] 
+[8mha:////4DAs6orfhaq6r4nyRih9UDFr1E3U8XylybJoHK238fPvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ my-app ---
+[INFO] Installing /var/lib/jenkins/workspace/gitlab-junit-repo/maven_first_example/my-app/target/my-app-release.jar to /var/lib/jenkins/.m2/repository/com/mycompany/app/my-app/release/my-app-release.jar
+[INFO] Installing /var/lib/jenkins/workspace/gitlab-junit-repo/maven_first_example/my-app/pom.xml to /var/lib/jenkins/.m2/repository/com/mycompany/app/my-app/release/my-app-release.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.417 s
+[INFO] Finished at: 2021-08-23T12:04:01Z
+[INFO] ------------------------------------------------------------------------
+Recording test results
+[Checks API] No suitable checks publisher found.
+[Checks API] No suitable checks publisher found.
+Finished: SUCCESS

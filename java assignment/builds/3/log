@@ -1,0 +1,26 @@
+Started by user [8mha:////4FTCqNFiKLpyn30lOIdVm1IpFtll+75UhAowWr8E/lnxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlakshmi
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/java assignment
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/lakshmi4025/Lakshmiassignment.git
+ > git init /var/lib/jenkins/workspace/java assignment # timeout=10
+Fetching upstream changes from https://github.com/lakshmi4025/Lakshmiassignment.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/lakshmi4025/Lakshmiassignment.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/lakshmi4025/Lakshmiassignment.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision aa172f24e9f76e84d4dd362cc3f746101c332c19 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f aa172f24e9f76e84d4dd362cc3f746101c332c19 # timeout=10
+Commit message: "checkin for lakshmiassignment"
+First time build. Skipping changelog.
+[java assignment] $ /bin/sh -xe /tmp/jenkins3739222704906499695.sh
++ javac Lakshmiassignment.java
++ java Lakshmiassignment
+Lakshmi,welcome to java assignment
+Finished: SUCCESS

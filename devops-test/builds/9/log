@@ -1,0 +1,10 @@
+Started by upstream project "[8mha:////4O+utF3YINvQI7hwXEgb6/heIIAQO3GPNs6g/zWWpIg/AAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP2U1LL8gmLd5PzcgsycVH0Aa0WwP8kAAAA=[0mdevops-compile" build number [8mha:////4Eus1LAL4SEtoTdfPHhsEKSnDRMOLqaHFM/JXVlyGebkAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYx/az8JP2U1LL8gmLd5PzcgsycVH1DIwCFFMddywAAAA==[0m12
+originally caused by:
+ Started by GitHub push by lakshmi4025
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/devops-test
+[devops-test] $ /bin/sh -xe /tmp/jenkins199782444758846218.sh
++ echo testing code
+testing code
+Triggering a new build of [8mha:////4LlleGTCiI1fGE8G9fOQHZ7fVmhJXjptR5p0M0aiWAmVAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP2U1LL8gmLdgsTk7MT0VH0AEwhgeckAAAA=[0mdevops-package
+Finished: SUCCESS

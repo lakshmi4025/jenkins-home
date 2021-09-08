@@ -1,0 +1,28 @@
+Started by user [8mha:////4FTCqNFiKLpyn30lOIdVm1IpFtll+75UhAowWr8E/lnxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlakshmi
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/array-week
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/array-week/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lakshmi425/hcl-shell-scripts.git # timeout=10
+Fetching upstream changes from https://github.com/lakshmi425/hcl-shell-scripts.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/lakshmi425/hcl-shell-scripts.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 199dbc3a8dfddfbf593cc5482b7777d59ed6e2fe (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 199dbc3a8dfddfbf593cc5482b7777d59ed6e2fe # timeout=10
+Commit message: "this is for month"
+ > git rev-list --no-walk 62aee38f5e1dceb73e76611022d4a525d3c7e211 # timeout=10
+[array-week] $ /bin/sh -xe /tmp/jenkins6178364716844881285.sh
++ bash array-week.sh
+sunday is a weekend
+monday is a weekday
+Tuesday is a weekday
+wednesday is a weekday
+thursday is a weekday
+friday is a weekday
+saturday is a weekend
+Finished: SUCCESS

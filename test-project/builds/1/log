@@ -1,0 +1,15 @@
+Started by user [8mha:////4FTCqNFiKLpyn30lOIdVm1IpFtll+75UhAowWr8E/lnxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlakshmi
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/test-project
+[test-project] $ /bin/sh -xe /tmp/jenkins979252582277749928.sh
++ echo today's date is :date
+today's date is :date
++ touch a b c
++ ls -l
+total 0
+-rw-r--r-- 1 jenkins jenkins 0 Aug 11 11:31 a
+-rw-r--r-- 1 jenkins jenkins 0 Aug 11 11:31 b
+-rw-r--r-- 1 jenkins jenkins 0 Aug 11 11:31 c
++ pwd
+/var/lib/jenkins/workspace/test-project
+Finished: SUCCESS

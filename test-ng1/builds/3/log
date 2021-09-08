@@ -1,0 +1,103 @@
+Started by user [8mha:////4FTCqNFiKLpyn30lOIdVm1IpFtll+75UhAowWr8E/lnxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mlakshmi
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/test-ng1
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/test-ng1/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lakshmi4025/testng-repo.git # timeout=10
+Fetching upstream changes from https://github.com/lakshmi4025/testng-repo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/lakshmi4025/testng-repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 09cebd74e0c5314c08e29b3061c75e413aada020 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 09cebd74e0c5314c08e29b3061c75e413aada020 # timeout=10
+Commit message: "testing for new file"
+ > git rev-list --no-walk 09cebd74e0c5314c08e29b3061c75e413aada020 # timeout=10
+[Checks API] No suitable checks publisher found.
+[test-ng1] $ /usr/share/maven/bin/mvn -f pom.xml install
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------< [0;36mnewtestNG:newtestNG[0;1m >-------------------------[m
+[[1;34mINFO[m] [1mBuilding newtestNG 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mnewtestNG[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/test-ng1/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mnewtestNG[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mnewtestNG[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/test-ng1/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mnewtestNG[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mnewtestNG[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mnewtestNG[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/test-ng1/target/newtestNG-0.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mnewtestNG[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/test-ng1/target/newtestNG-0.0.1-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/newtestNG/newtestNG/0.0.1-SNAPSHOT/newtestNG-0.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/test-ng1/pom.xml to /var/lib/jenkins/.m2/repository/newtestNG/newtestNG/0.0.1-SNAPSHOT/newtestNG-0.0.1-SNAPSHOT.pom
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.185 s
+[[1;34mINFO[m] Finished at: 2021-08-28T13:08:02Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[test-ng1] $ /bin/sh -xe /tmp/jenkins1787821274481076656.sh
+Recording test results
+ERROR: Step ‘Publish JUnit test result report’ aborted due to exception: 
+com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: Invalid byte 2 of 2-byte UTF-8 sequence.
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.invalidByte(UTF8Reader.java:701)
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.read(UTF8Reader.java:372)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.load(XMLEntityScanner.java:1895)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.arrangeCapacity(XMLEntityScanner.java:1761)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.skipString(XMLEntityScanner.java:1799)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:156)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:806)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.dom4j.io.SAXReader.read(SAXReader.java:494)
+Caused: org.dom4j.DocumentException: Invalid byte 2 of 2-byte UTF-8 sequence.
+	at org.dom4j.io.SAXReader.read(SAXReader.java:513)
+	at org.dom4j.io.SAXReader.read(SAXReader.java:392)
+	at hudson.tasks.junit.SuiteResult.parse(SuiteResult.java:178)
+	at hudson.tasks.junit.TestResult.parse(TestResult.java:378)
+Caused: java.io.IOException: Failed to read /var/lib/jenkins/workspace/test-ng1/target/classes/newtestNG/newtestNGclass.class
+Is this really a JUnit report file? Your configuration must be matching too many files
+	at hudson.tasks.junit.TestResult.parse(TestResult.java:386)
+	at hudson.tasks.junit.TestResult.parsePossiblyEmpty(TestResult.java:308)
+	at hudson.tasks.junit.TestResult.parse(TestResult.java:224)
+	at hudson.tasks.junit.TestResult.parse(TestResult.java:196)
+	at hudson.tasks.junit.TestResult.<init>(TestResult.java:151)
+	at hudson.tasks.junit.JUnitParser$ParseResultCallable.invoke(JUnitParser.java:144)
+	at hudson.FilePath.act(FilePath.java:1172)
+	at hudson.FilePath.act(FilePath.java:1155)
+	at hudson.tasks.junit.JUnitParser.parseResult(JUnitParser.java:107)
+	at hudson.tasks.junit.JUnitResultArchiver.parse(JUnitResultArchiver.java:153)
+	at hudson.tasks.junit.JUnitResultArchiver.parseAndSummarize(JUnitResultArchiver.java:247)
+	at hudson.tasks.junit.JUnitResultArchiver.perform(JUnitResultArchiver.java:170)
+	at jenkins.tasks.SimpleBuildStep.perform(SimpleBuildStep.java:123)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:81)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:21)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:808)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:757)
+	at hudson.model.Build$BuildExecution.post2(Build.java:179)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:701)
+	at hudson.model.Run.execute(Run.java:1914)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:100)
+	at hudson.model.Executor.run(Executor.java:433)
+[Checks API] No suitable checks publisher found.
+Finished: FAILURE

@@ -1,0 +1,9 @@
+commit 6cd4ef54ec05ec2d45a7d7a2c9752864601e2acf
+tree 6f7ec98749f574e530b46d92d3b90e0aecdb3670
+parent b73ea2814c5811533c41e92255363a1fe7e73054
+author lakshmi4025 <88842239+lakshmi4025@users.noreply.github.com> 2021-09-06 22:57:47 -0700
+committer GitHub <noreply@github.com> 2021-09-06 22:57:47 -0700
+
+    Update application.properties
+
+:100644 100644 5ce192ee365990587f9a7d3574c25172ee142c0c ca0179c34533b80273703a209678019a7addb918 M	src/main/resources/application.properties
